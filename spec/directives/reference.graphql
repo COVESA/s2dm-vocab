@@ -1,0 +1,6 @@
+"""
+To annotate a URI reference for a GraphQL element, which can be used to link it to external definitions or documentation.
+"""
+directive @reference(
+  uri: String!
+) on FIELD_DEFINITION | OBJECT | ENUM | ENUM_VALUE
