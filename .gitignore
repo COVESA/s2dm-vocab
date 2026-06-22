@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+dist/
+build/
+
+# uv / virtual environments
+.venv/
+
+# s2dm build output (composed/validated schema artifacts)
+out/
+output/
+*.composed.graphql
+*.composed.sdl
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
