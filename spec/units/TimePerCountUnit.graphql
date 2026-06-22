@@ -1,0 +1,27 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum TimePerCountUnit @reference(uri: "http://qudt.org/vocab/quantitykind/TimePerCount") {
+  """Day per Number | UCUM: d.{#}-1"""
+  DAY_PER_NUM @reference(uri: "http://qudt.org/vocab/unit/DAY-PER-NUM")
+
+  """Hour per Number | UCUM: h.{#}-1"""
+  HR_PER_NUM @reference(uri: "http://qudt.org/vocab/unit/HR-PER-NUM")
+
+  """Minute per Number | UCUM: min.{#}-1"""
+  MIN_PER_NUM @reference(uri: "http://qudt.org/vocab/unit/MIN-PER-NUM")
+
+  """Month per Number | UCUM: mo.{#}-1"""
+  MO_PER_NUM @reference(uri: "http://qudt.org/vocab/unit/MO-PER-NUM")
+
+  """Second per Number | UCUM: s.{#}-1"""
+  SEC_PER_NUM @reference(uri: "http://qudt.org/vocab/unit/SEC-PER-NUM")
+
+  """Week per Number | UCUM: wk.{#}-1"""
+  WK_PER_NUM @reference(uri: "http://qudt.org/vocab/unit/WK-PER-NUM")
+
+  """Year per Number | UCUM: a.{#}-1"""
+  YR_PER_NUM @reference(uri: "http://qudt.org/vocab/unit/YR-PER-NUM")
+}

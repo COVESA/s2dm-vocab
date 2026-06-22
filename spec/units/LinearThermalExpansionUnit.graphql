@@ -1,0 +1,33 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum LinearThermalExpansionUnit @reference(uri: "http://qudt.org/vocab/quantitykind/LinearThermalExpansion") {
+  """British Thermal Unit (international Definition) per Pound Force Degree Fahrenheit | UCUM: [Btu_IT].[lbf_av]-1.[degF]-1"""
+  BTU_IT_PER_LB_F_DEG_F @reference(uri: "http://qudt.org/vocab/unit/BTU_IT-PER-LB_F-DEG_F")
+
+  """British Thermal Unit (international Definition) per Pound Force Degree Rankine | UCUM: [Btu_IT].[lbf_av]-1.[degR]-1"""
+  BTU_IT_PER_LB_F_DEG_R @reference(uri: "http://qudt.org/vocab/unit/BTU_IT-PER-LB_F-DEG_R")
+
+  """Centimeter per Kelvin | UCUM: cm.K-1"""
+  CENTIM_PER_K @reference(uri: "http://qudt.org/vocab/unit/CentiM-PER-K")
+
+  """Foot per Degree Fahrenheit | UCUM: [ft_i].[degF]-1"""
+  FT_PER_DEG_F @reference(uri: "http://qudt.org/vocab/unit/FT-PER-DEG_F")
+
+  """Inch per Degree Fahrenheit | UCUM: [in_i].[degF]-1"""
+  IN_PER_DEG_F @reference(uri: "http://qudt.org/vocab/unit/IN-PER-DEG_F")
+
+  """Micrometer per Kelvin | UCUM: um.K-1"""
+  MICROM_PER_K @reference(uri: "http://qudt.org/vocab/unit/MicroM-PER-K")
+
+  """Millimeter per Kelvin | UCUM: mm.K-1"""
+  MILLIM_PER_K @reference(uri: "http://qudt.org/vocab/unit/MilliM-PER-K")
+
+  """Meter per Kelvin | UCUM: m.K-1"""
+  M_PER_K @reference(uri: "http://qudt.org/vocab/unit/M-PER-K")
+
+  """Yard per Degree Fahrenheit | UCUM: [yd_i].[degF]-1"""
+  YD_PER_DEG_F @reference(uri: "http://qudt.org/vocab/unit/YD-PER-DEG_F")
+}

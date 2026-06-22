@@ -1,0 +1,15 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum MolarHeatCapacityUnit @reference(uri: "http://qudt.org/vocab/quantitykind/MolarHeatCapacity") {
+  """British Thermal Unit (international Definition) per Pound Mole Degree Fahrenheit | UCUM: [Btu_IT].[mol_lb]-1.[degF]-1"""
+  BTU_IT_PER_MOL_LB_DEG_F @reference(uri: "http://qudt.org/vocab/unit/BTU_IT-PER-MOL_LB-DEG_F")
+
+  """Joule per Mole Kelvin | UCUM: J.mol-1.K-1"""
+  J_PER_MOL_K @reference(uri: "http://qudt.org/vocab/unit/J-PER-MOL-K")
+
+  """Kilocalorie per Mole Degree Celsius | UCUM: kcal.mol-1.Cel-1"""
+  KILOCAL_PER_MOL_DEG_C @reference(uri: "http://qudt.org/vocab/unit/KiloCAL-PER-MOL-DEG_C")
+}

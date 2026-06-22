@@ -1,0 +1,27 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum AreaBitDensityUnit @reference(uri: "http://qudt.org/vocab/quantitykind/AreaBitDensity") {
+  """Bit per Square Meter | UCUM: bit.m-2"""
+  BIT_PER_M2 @reference(uri: "http://qudt.org/vocab/unit/BIT-PER-M2")
+
+  """Exbibit per Square Meter"""
+  EXBIBIT_PER_M2 @reference(uri: "http://qudt.org/vocab/unit/ExbiBIT-PER-M2")
+
+  """Gibibit per Square Meter | UCUM: Gibit.m-2"""
+  GIBIBIT_PER_M2 @reference(uri: "http://qudt.org/vocab/unit/GibiBIT-PER-M2")
+
+  """Kibibit per Square Meter | UCUM: Kibit.m-2"""
+  KIBIBIT_PER_M2 @reference(uri: "http://qudt.org/vocab/unit/KibiBIT-PER-M2")
+
+  """Mebibit per Square Meter | UCUM: Mibit.m-2"""
+  MEBIBIT_PER_M2 @reference(uri: "http://qudt.org/vocab/unit/MebiBIT-PER-M2")
+
+  """Pebibit per Square Meter"""
+  PEBIBIT_PER_M2 @reference(uri: "http://qudt.org/vocab/unit/PebiBIT-PER-M2")
+
+  """Tebibit per Square Meter | UCUM: Tibit.m-2"""
+  TEBIBIT_PER_M2 @reference(uri: "http://qudt.org/vocab/unit/TebiBIT-PER-M2")
+}

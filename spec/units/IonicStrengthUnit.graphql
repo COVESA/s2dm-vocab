@@ -1,0 +1,30 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum IonicStrengthUnit @reference(uri: "http://qudt.org/vocab/quantitykind/IonicStrength") {
+  """Centimole per Kilogram | UCUM: cmol.kg-1"""
+  CENTIMOL_PER_KILOGM @reference(uri: "http://qudt.org/vocab/unit/CentiMOL-PER-KiloGM")
+
+  """Kilomole per Kilogram | UCUM: kmol.kg-1"""
+  KILOMOL_PER_KILOGM @reference(uri: "http://qudt.org/vocab/unit/KiloMOL-PER-KiloGM")
+
+  """Micromole per Gram | UCUM: umol.g-1"""
+  MICROMOL_PER_GM @reference(uri: "http://qudt.org/vocab/unit/MicroMOL-PER-GM")
+
+  """Millimole per Gram | UCUM: mmol.g-1"""
+  MILLIMOL_PER_GM @reference(uri: "http://qudt.org/vocab/unit/MilliMOL-PER-GM")
+
+  """Millimole per Kilogram | UCUM: mmol.kg-1"""
+  MILLIMOL_PER_KILOGM @reference(uri: "http://qudt.org/vocab/unit/MilliMOL-PER-KiloGM")
+
+  """Pound Mole per Pound Mass | UCUM: [mol_lb].[lb_av]-1"""
+  MOL_LB_PER_LB @reference(uri: "http://qudt.org/vocab/unit/MOL_LB-PER-LB")
+
+  """Mole per Kilogram | UCUM: mol.kg-1"""
+  MOL_PER_KILOGM @reference(uri: "http://qudt.org/vocab/unit/MOL-PER-KiloGM")
+
+  """Nanomole per Gram | UCUM: nmol.g-1"""
+  NANOMOL_PER_GM @reference(uri: "http://qudt.org/vocab/unit/NanoMOL-PER-GM")
+}

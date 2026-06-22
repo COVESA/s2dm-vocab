@@ -1,0 +1,21 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum BatteryCapacityUnit @reference(uri: "http://qudt.org/vocab/quantitykind/BatteryCapacity") {
+  """Ampere Hour | UCUM: A.h"""
+  A_HR @reference(uri: "http://qudt.org/vocab/unit/A-HR")
+
+  """Ampere Minute | UCUM: A.min"""
+  A_MIN @reference(uri: "http://qudt.org/vocab/unit/A-MIN")
+
+  """Ampere Second | UCUM: A.s"""
+  A_SEC @reference(uri: "http://qudt.org/vocab/unit/A-SEC")
+
+  """Kiloampere Hour | UCUM: kA.h"""
+  KILOA_HR @reference(uri: "http://qudt.org/vocab/unit/KiloA-HR")
+
+  """Milliampere Hour | UCUM: mA.h"""
+  MILLIA_HR @reference(uri: "http://qudt.org/vocab/unit/MilliA-HR")
+}

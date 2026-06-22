@@ -1,0 +1,138 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum EnergyUnit @reference(uri: "http://qudt.org/vocab/quantitykind/Energy") {
+  """Attojoule | UCUM: aJ"""
+  ATTOJ @reference(uri: "http://qudt.org/vocab/unit/AttoJ")
+
+  """British Thermal Unit (international Definition) | UCUM: [Btu_IT]"""
+  BTU_IT @reference(uri: "http://qudt.org/vocab/unit/BTU_IT")
+
+  """British Thermal Unit (thermochemical Definition) | UCUM: [Btu_th]"""
+  BTU_TH @reference(uri: "http://qudt.org/vocab/unit/BTU_TH")
+
+  """International Table Calorie | UCUM: cal_IT"""
+  CAL_IT @reference(uri: "http://qudt.org/vocab/unit/CAL_IT")
+
+  """Thermochemical Calorie | UCUM: cal_th"""
+  CAL_TH @reference(uri: "http://qudt.org/vocab/unit/CAL_TH")
+
+  """Erg | UCUM: erg"""
+  ERG @reference(uri: "http://qudt.org/vocab/unit/ERG")
+
+  """Electron Volt | UCUM: eV"""
+  EV @reference(uri: "http://qudt.org/vocab/unit/EV")
+
+  """Exajoule | UCUM: EJ"""
+  EXAJ @reference(uri: "http://qudt.org/vocab/unit/ExaJ")
+
+  """Hartree"""
+  E_H @reference(uri: "http://qudt.org/vocab/unit/E_h")
+
+  """Femtojoule | UCUM: fJ"""
+  FEMTOJ @reference(uri: "http://qudt.org/vocab/unit/FemtoJ")
+
+  """Foot Pound Force | UCUM: [ft_i].[lbf_av]"""
+  FT_LB_F @reference(uri: "http://qudt.org/vocab/unit/FT-LB_F")
+
+  """Foot Poundal | UCUM: [ft_i].[lb_av].[ft_i].s-2"""
+  FT_PDL @reference(uri: "http://qudt.org/vocab/unit/FT-PDL")
+
+  """Giga Electron Volt | UCUM: GeV"""
+  GIGAEV @reference(uri: "http://qudt.org/vocab/unit/GigaEV")
+
+  """Gigajoule | UCUM: GJ"""
+  GIGAJ @reference(uri: "http://qudt.org/vocab/unit/GigaJ")
+
+  """Gigawatt Hour | UCUM: GW.h"""
+  GIGAW_HR @reference(uri: "http://qudt.org/vocab/unit/GigaW-HR")
+
+  """Joule | UCUM: J"""
+  J @reference(uri: "http://qudt.org/vocab/unit/J")
+
+  """Kilo British Thermal Unit (international Definition) | UCUM: k[Btu_IT]"""
+  KILOBTU_IT @reference(uri: "http://qudt.org/vocab/unit/KiloBTU_IT")
+
+  """Kilo British Thermal Unit (thermochemical Definition) | UCUM: k[Btu_th]"""
+  KILOBTU_TH @reference(uri: "http://qudt.org/vocab/unit/KiloBTU_TH")
+
+  """Kilocalorie | UCUM: kcal"""
+  KILOCAL @reference(uri: "http://qudt.org/vocab/unit/KiloCAL")
+
+  """Kilo Electron Volt | UCUM: keV"""
+  KILOEV @reference(uri: "http://qudt.org/vocab/unit/KiloEV")
+
+  """Kilojoule | UCUM: kJ"""
+  KILOJ @reference(uri: "http://qudt.org/vocab/unit/KiloJ")
+
+  """Kilowatt Hour | UCUM: kW.h"""
+  KILOW_HR @reference(uri: "http://qudt.org/vocab/unit/KiloW-HR")
+
+  """Mega British Thermal Unit (international Definition) | UCUM: M[Btu_IT]"""
+  MEGABTU_IT @reference(uri: "http://qudt.org/vocab/unit/MegaBTU_IT")
+
+  """Mega Electron Volt | UCUM: MeV"""
+  MEGAEV @reference(uri: "http://qudt.org/vocab/unit/MegaEV")
+
+  """Megajoule | UCUM: MJ"""
+  MEGAJ @reference(uri: "http://qudt.org/vocab/unit/MegaJ")
+
+  """Mega Ton of Oil Equivalent"""
+  MEGATOE @reference(uri: "http://qudt.org/vocab/unit/MegaTOE")
+
+  """Megawatt Hour | UCUM: MW.h"""
+  MEGAW_HR @reference(uri: "http://qudt.org/vocab/unit/MegaW-HR")
+
+  """Micro Joule | UCUM: uJ"""
+  MICROJ @reference(uri: "http://qudt.org/vocab/unit/MicroJ")
+
+  """Millijoule | UCUM: mJ"""
+  MILLIJ @reference(uri: "http://qudt.org/vocab/unit/MilliJ")
+
+  """Nanojoule | UCUM: nJ"""
+  NANOJ @reference(uri: "http://qudt.org/vocab/unit/NanoJ")
+
+  """Petajoule | UCUM: PJ"""
+  PETAJ @reference(uri: "http://qudt.org/vocab/unit/PetaJ")
+
+  """Picojoule | UCUM: pJ"""
+  PICOJ @reference(uri: "http://qudt.org/vocab/unit/PicoJ")
+
+  """Planck Energy"""
+  PLANCKENERGY @reference(uri: "http://qudt.org/vocab/unit/PlanckEnergy")
+
+  """Quad"""
+  QUAD @reference(uri: "http://qudt.org/vocab/unit/QUAD")
+
+  """Terajoule | UCUM: TJ"""
+  TERAJ @reference(uri: "http://qudt.org/vocab/unit/TeraJ")
+
+  """Terawatt Hour | UCUM: TW.h"""
+  TERAW_HR @reference(uri: "http://qudt.org/vocab/unit/TeraW-HR")
+
+  """Therm (ec)"""
+  THERM_EC @reference(uri: "http://qudt.org/vocab/unit/THERM_EC")
+
+  """Therm (u.s.)"""
+  THERM_US @reference(uri: "http://qudt.org/vocab/unit/THERM_US")
+
+  """Thm_eec | UCUM: 100000.[Btu_IT]"""
+  THM_EEC @reference(uri: "http://qudt.org/vocab/unit/THM_EEC")
+
+  """Therm Us | UCUM: 100000.[Btu_59]"""
+  THM_US @reference(uri: "http://qudt.org/vocab/unit/THM_US")
+
+  """Ton of Oil Equivalent"""
+  TOE @reference(uri: "http://qudt.org/vocab/unit/TOE")
+
+  """Ton Energy | UCUM: Gcal"""
+  TONENERGY @reference(uri: "http://qudt.org/vocab/unit/TonEnergy")
+
+  """Watt Hour | UCUM: W.h"""
+  W_HR @reference(uri: "http://qudt.org/vocab/unit/W-HR")
+
+  """Watt Second | UCUM: W.s"""
+  W_SEC @reference(uri: "http://qudt.org/vocab/unit/W-SEC")
+}

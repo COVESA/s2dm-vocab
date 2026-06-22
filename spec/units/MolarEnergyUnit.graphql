@@ -1,0 +1,15 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum MolarEnergyUnit @reference(uri: "http://qudt.org/vocab/quantitykind/MolarEnergy") {
+  """Joule per Mole | UCUM: J.mol-1"""
+  J_PER_MOL @reference(uri: "http://qudt.org/vocab/unit/J-PER-MOL")
+
+  """Kilocalorie per Mole | UCUM: kcal.mol-1"""
+  KILOCAL_PER_MOL @reference(uri: "http://qudt.org/vocab/unit/KiloCAL-PER-MOL")
+
+  """Kilojoule per Mole | UCUM: kJ.mol-1"""
+  KILOJ_PER_MOL @reference(uri: "http://qudt.org/vocab/unit/KiloJ-PER-MOL")
+}

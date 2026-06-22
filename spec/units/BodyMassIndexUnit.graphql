@@ -1,0 +1,18 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum BodyMassIndexUnit @reference(uri: "http://qudt.org/vocab/quantitykind/BodyMassIndex") {
+  """Gram per Square Millimeter | UCUM: g.mm-2"""
+  GM_PER_MILLIM2 @reference(uri: "http://qudt.org/vocab/unit/GM-PER-MilliM2")
+
+  """Kilogram per Square Meter | UCUM: kg.m-2"""
+  KILOGM_PER_M2 @reference(uri: "http://qudt.org/vocab/unit/KiloGM-PER-M2")
+
+  """Pound Mass per Square Yard | UCUM: [lb_av].[yd_i]-2"""
+  LB_PER_YD2 @reference(uri: "http://qudt.org/vocab/unit/LB-PER-YD2")
+
+  """Ounce Mass per Square Inch | UCUM: [oz_av].[in_i]-2"""
+  OZ_PER_IN2 @reference(uri: "http://qudt.org/vocab/unit/OZ-PER-IN2")
+}

@@ -1,0 +1,27 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum InverseMassUnit @reference(uri: "http://qudt.org/vocab/quantitykind/InverseMass") {
+  """Reciprocal Gram | UCUM: g-1"""
+  PER_GM @reference(uri: "http://qudt.org/vocab/unit/PER-GM")
+
+  """Reciprocal Kilogram | UCUM: kg-1"""
+  PER_KILOGM @reference(uri: "http://qudt.org/vocab/unit/PER-KiloGM")
+
+  """Reciprocal Pound Mass | UCUM: [lb_av]-1"""
+  PER_LB @reference(uri: "http://qudt.org/vocab/unit/PER-LB")
+
+  """Reciprocal Milligram | UCUM: mg-1"""
+  PER_MILLIGM @reference(uri: "http://qudt.org/vocab/unit/PER-MilliGM")
+
+  """Reciprocal Ounce Mass | UCUM: [oz_av]-1"""
+  PER_OZ @reference(uri: "http://qudt.org/vocab/unit/PER-OZ")
+
+  """Reciprocal Ton | UCUM: ston_av-1"""
+  PER_TON @reference(uri: "http://qudt.org/vocab/unit/PER-TON")
+
+  """Reciprocal Tonne | UCUM: t-1"""
+  PER_TONNE @reference(uri: "http://qudt.org/vocab/unit/PER-TONNE")
+}

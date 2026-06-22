@@ -1,0 +1,45 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum LiquidVolumeUnit @reference(uri: "http://qudt.org/vocab/quantitykind/LiquidVolume") {
+  """Barrel (US) | UCUM: [bbl_us]"""
+  BBL_US @reference(uri: "http://qudt.org/vocab/unit/BBL_US")
+
+  """Barrel (us Petroleum) | UCUM: [bbl_us]"""
+  BBL_US_PET @reference(uri: "http://qudt.org/vocab/unit/BBL_US_PET")
+
+  """Centiliter | UCUM: cL"""
+  CENTIL @reference(uri: "http://qudt.org/vocab/unit/CentiL")
+
+  """Us Liquid Cup | UCUM: [cup_us]"""
+  CUP @reference(uri: "http://qudt.org/vocab/unit/CUP")
+
+  """Cup (US) | UCUM: [cup_us]"""
+  CUP_US @reference(uri: "http://qudt.org/vocab/unit/CUP_US")
+
+  """Imperial Gallon | UCUM: [gal_br]"""
+  GAL_IMP @reference(uri: "http://qudt.org/vocab/unit/GAL_IMP")
+
+  """Gallon (UK) | UCUM: [gal_br]"""
+  GAL_UK @reference(uri: "http://qudt.org/vocab/unit/GAL_UK")
+
+  """Us Gallon | UCUM: [gal_us]"""
+  GAL_US @reference(uri: "http://qudt.org/vocab/unit/GAL_US")
+
+  """Kilo Cubic Foot | UCUM: k[ft_i]3"""
+  KILOCUBICFT @reference(uri: "http://qudt.org/vocab/unit/KiloCubicFT")
+
+  """Liter | UCUM: L"""
+  L @reference(uri: "http://qudt.org/vocab/unit/L")
+
+  """Us Liquid Ounce | UCUM: [foz_us]"""
+  OZ_VOL_US @reference(uri: "http://qudt.org/vocab/unit/OZ_VOL_US")
+
+  """Us Liquid Pint | UCUM: [pt_us]"""
+  PINT_US @reference(uri: "http://qudt.org/vocab/unit/PINT_US")
+
+  """Us Liquid Quart | UCUM: [qt_us]"""
+  QT_US @reference(uri: "http://qudt.org/vocab/unit/QT_US")
+}

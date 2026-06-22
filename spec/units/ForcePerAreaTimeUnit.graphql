@@ -1,0 +1,27 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum ForcePerAreaTimeUnit @reference(uri: "http://qudt.org/vocab/quantitykind/ForcePerAreaTime") {
+  """Decibar per Year | UCUM: dbar.a-1"""
+  DECIBAR_PER_YR @reference(uri: "http://qudt.org/vocab/unit/DeciBAR-PER-YR")
+
+  """Hectopascal per Hour | UCUM: hPa.h-1"""
+  HECTOPA_PER_HR @reference(uri: "http://qudt.org/vocab/unit/HectoPA-PER-HR")
+
+  """Pound Force per Square Inch Second | UCUM: [lbf_av].[in_i]-2.s-1"""
+  LB_F_PER_IN2_SEC @reference(uri: "http://qudt.org/vocab/unit/LB_F-PER-IN2-SEC")
+
+  """Milliwatt per Square Meter Nanometer | UCUM: mW.m-2.nm-1"""
+  MILLIW_PER_M2_NANOM @reference(uri: "http://qudt.org/vocab/unit/MilliW-PER-M2-NanoM")
+
+  """Pascal per Hour | UCUM: Pa.h-1"""
+  PA_PER_HR @reference(uri: "http://qudt.org/vocab/unit/PA-PER-HR")
+
+  """Pascal per Minute | UCUM: Pa.min-1"""
+  PA_PER_MIN @reference(uri: "http://qudt.org/vocab/unit/PA-PER-MIN")
+
+  """Pascal per Second | UCUM: Pa.s-1"""
+  PA_PER_SEC @reference(uri: "http://qudt.org/vocab/unit/PA-PER-SEC")
+}

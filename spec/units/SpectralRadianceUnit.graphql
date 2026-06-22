@@ -1,0 +1,21 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum SpectralRadianceUnit @reference(uri: "http://qudt.org/vocab/quantitykind/SpectralRadiance") {
+  """Microwatt per Square Centimeter Micrometer Steradian | UCUM: uW.cm-2.um-1.sr-1"""
+  MICROW_PER_CENTIM2_MICROM_SR @reference(uri: "http://qudt.org/vocab/unit/MicroW-PER-CentiM2-MicroM-SR")
+
+  """Milliwatt per Square Meter Nanometer Steradian | UCUM: mW.m-2.nm-1.sr-1"""
+  MILLIW_PER_M2_NANOM_SR @reference(uri: "http://qudt.org/vocab/unit/MilliW-PER-M2-NanoM-SR")
+
+  """Watt per Square Meter Micrometer | UCUM: W.m-2.um-1"""
+  W_PER_M2_MICROM @reference(uri: "http://qudt.org/vocab/unit/W-PER-M2-MicroM")
+
+  """Watt per Square Meter Micrometer Steradian | UCUM: W.m-2.um-1.sr-1"""
+  W_PER_M2_MICROM_SR @reference(uri: "http://qudt.org/vocab/unit/W-PER-M2-MicroM-SR")
+
+  """Watt per Square Meter Nanometer Steradian | UCUM: W.m-2.nm-1.sr-1"""
+  W_PER_M2_NANOM_SR @reference(uri: "http://qudt.org/vocab/unit/W-PER-M2-NanoM-SR")
+}

@@ -1,0 +1,15 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum SquareTimeUnit @reference(uri: "http://qudt.org/vocab/quantitykind/SquareTime") {
+  """Gram per Centimeter Bar | UCUM: g.cm-1.bar-1"""
+  GM_PER_CENTIM_BAR @reference(uri: "http://qudt.org/vocab/unit/GM-PER-CentiM-BAR")
+
+  """Gram per Millimeter Bar | UCUM: g.mm-1.bar-1"""
+  GM_PER_MILLIM_BAR @reference(uri: "http://qudt.org/vocab/unit/GM-PER-MilliM-BAR")
+
+  """Square Second | UCUM: s2"""
+  SEC2 @reference(uri: "http://qudt.org/vocab/unit/SEC2")
+}

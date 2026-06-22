@@ -1,0 +1,51 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum ElectricConductivityUnit @reference(uri: "http://qudt.org/vocab/quantitykind/ElectricConductivity") {
+  """Decisiemens per Meter | UCUM: dS.m-1"""
+  DECIS_PER_M @reference(uri: "http://qudt.org/vocab/unit/DeciS-PER-M")
+
+  """Kilosiemens per Meter | UCUM: kS.m-1"""
+  KILOS_PER_M @reference(uri: "http://qudt.org/vocab/unit/KiloS-PER-M")
+
+  """Megasiemens per Meter | UCUM: MS.m-1"""
+  MEGAS_PER_M @reference(uri: "http://qudt.org/vocab/unit/MegaS-PER-M")
+
+  """Statmho"""
+  MHO_STAT @reference(uri: "http://qudt.org/vocab/unit/MHO_Stat")
+
+  """Microsiemens per Centimeter | UCUM: uS.cm-1"""
+  MICROS_PER_CENTIM @reference(uri: "http://qudt.org/vocab/unit/MicroS-PER-CentiM")
+
+  """Microsiemens per Meter | UCUM: uS.m-1"""
+  MICROS_PER_M @reference(uri: "http://qudt.org/vocab/unit/MicroS-PER-M")
+
+  """Millisiemens per Centimeter | UCUM: mS.cm-1"""
+  MILLIS_PER_CENTIM @reference(uri: "http://qudt.org/vocab/unit/MilliS-PER-CentiM")
+
+  """Millisiemens per Meter | UCUM: mS.m-1"""
+  MILLIS_PER_M @reference(uri: "http://qudt.org/vocab/unit/MilliS-PER-M")
+
+  """Nanosiemens per Centimeter | UCUM: nS.cm-1"""
+  NANOS_PER_CENTIM @reference(uri: "http://qudt.org/vocab/unit/NanoS-PER-CentiM")
+
+  """Nanosiemens per Meter | UCUM: nS.m-1"""
+  NANOS_PER_M @reference(uri: "http://qudt.org/vocab/unit/NanoS-PER-M")
+
+  """Picosiemens per Meter | UCUM: pS.m-1"""
+  PICOS_PER_M @reference(uri: "http://qudt.org/vocab/unit/PicoS-PER-M")
+
+  """Absiemen | UCUM: GS"""
+  S_AB @reference(uri: "http://qudt.org/vocab/unit/S_Ab")
+
+  """Siemens per Centimeter | UCUM: S.cm-1"""
+  S_PER_CENTIM @reference(uri: "http://qudt.org/vocab/unit/S-PER-CentiM")
+
+  """Siemens per Meter | UCUM: S.m-1"""
+  S_PER_M @reference(uri: "http://qudt.org/vocab/unit/S-PER-M")
+
+  """Statsiemens"""
+  S_STAT @reference(uri: "http://qudt.org/vocab/unit/S_Stat")
+}

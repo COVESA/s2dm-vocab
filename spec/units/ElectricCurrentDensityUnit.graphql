@@ -1,0 +1,30 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum ElectricCurrentDensityUnit @reference(uri: "http://qudt.org/vocab/quantitykind/ElectricCurrentDensity") {
+  """Abampere per Square Centimeter | UCUM: Bi.cm-2"""
+  A_AB_PER_CENTIM2 @reference(uri: "http://qudt.org/vocab/unit/A_Ab-PER-CentiM2")
+
+  """Ampere per Square Centimeter | UCUM: A.cm-2"""
+  A_PER_CENTIM2 @reference(uri: "http://qudt.org/vocab/unit/A-PER-CentiM2")
+
+  """Ampere per Square Meter | UCUM: A.m-2"""
+  A_PER_M2 @reference(uri: "http://qudt.org/vocab/unit/A-PER-M2")
+
+  """Ampere per Square Millimeter | UCUM: A.mm-2"""
+  A_PER_MILLIM2 @reference(uri: "http://qudt.org/vocab/unit/A-PER-MilliM2")
+
+  """Statampere per Square Centimeter"""
+  A_STAT_PER_CENTIM2 @reference(uri: "http://qudt.org/vocab/unit/A_Stat-PER-CentiM2")
+
+  """Kiloampere per Square Meter | UCUM: kA.m-2"""
+  KILOA_PER_M2 @reference(uri: "http://qudt.org/vocab/unit/KiloA-PER-M2")
+
+  """Megaampere per Square Meter | UCUM: MA.m-2"""
+  MEGAA_PER_M2 @reference(uri: "http://qudt.org/vocab/unit/MegaA-PER-M2")
+
+  """Planck Current Density"""
+  PLANCKCURRENTDENSITY @reference(uri: "http://qudt.org/vocab/unit/PlanckCurrentDensity")
+}

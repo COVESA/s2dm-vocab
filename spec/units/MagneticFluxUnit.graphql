@@ -1,0 +1,30 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum MagneticFluxUnit @reference(uri: "http://qudt.org/vocab/quantitykind/MagneticFlux") {
+  """Kilo Pound Force Foot per Ampere | UCUM: k[lbf_av].[ft_i].A-1"""
+  KILOLB_F_FT_PER_A @reference(uri: "http://qudt.org/vocab/unit/KiloLB_F-FT-PER-A")
+
+  """Kiloweber | UCUM: kWb"""
+  KILOWB @reference(uri: "http://qudt.org/vocab/unit/KiloWB")
+
+  """Milliweber | UCUM: mWb"""
+  MILLIWB @reference(uri: "http://qudt.org/vocab/unit/MilliWB")
+
+  """Maxwell | UCUM: Mx"""
+  MX @reference(uri: "http://qudt.org/vocab/unit/MX")
+
+  """Newton Meter per Ampere | UCUM: N.m.A-1"""
+  N_M_PER_A @reference(uri: "http://qudt.org/vocab/unit/N-M-PER-A")
+
+  """Unit Pole"""
+  UNITPOLE @reference(uri: "http://qudt.org/vocab/unit/UnitPole")
+
+  """Abvolt Second | UCUM: 10.nV.s"""
+  V_AB_SEC @reference(uri: "http://qudt.org/vocab/unit/V_Ab-SEC")
+
+  """Weber | UCUM: Wb"""
+  WB @reference(uri: "http://qudt.org/vocab/unit/WB")
+}

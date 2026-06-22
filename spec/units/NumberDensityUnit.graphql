@@ -1,0 +1,27 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum NumberDensityUnit @reference(uri: "http://qudt.org/vocab/quantitykind/NumberDensity") {
+  """Number per Liter | UCUM: {#}.L-1"""
+  NUM_PER_L @reference(uri: "http://qudt.org/vocab/unit/NUM-PER-L")
+
+  """Number per Cubic Meter | UCUM: {#}.m-3"""
+  NUM_PER_M3 @reference(uri: "http://qudt.org/vocab/unit/NUM-PER-M3")
+
+  """Number per Microliter | UCUM: {#}.uL-1"""
+  NUM_PER_MICROL @reference(uri: "http://qudt.org/vocab/unit/NUM-PER-MicroL")
+
+  """Number per Milliliter | UCUM: {#}.mL-1"""
+  NUM_PER_MILLIL @reference(uri: "http://qudt.org/vocab/unit/NUM-PER-MilliL")
+
+  """Number per Cubic Millimeter | UCUM: {#}.mm-3"""
+  NUM_PER_MILLIM3 @reference(uri: "http://qudt.org/vocab/unit/NUM-PER-MilliM3")
+
+  """Number per Nanoliter | UCUM: {#}.nL-1"""
+  NUM_PER_NANOL @reference(uri: "http://qudt.org/vocab/unit/NUM-PER-NanoL")
+
+  """Number per Picoliter | UCUM: {#}.pL-1"""
+  NUM_PER_PICOL @reference(uri: "http://qudt.org/vocab/unit/NUM-PER-PicoL")
+}

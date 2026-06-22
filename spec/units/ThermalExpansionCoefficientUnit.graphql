@@ -1,0 +1,33 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum ThermalExpansionCoefficientUnit @reference(uri: "http://qudt.org/vocab/quantitykind/ThermalExpansionCoefficient") {
+  """Millimeter per Degree Celsius Meter | UCUM: mm.Cel-1.m-1"""
+  MILLIM_PER_DEG_C_M @reference(uri: "http://qudt.org/vocab/unit/MilliM-PER-DEG_C-M")
+
+  """Meter per Degree Celsius Meter | UCUM: m.Cel-1.m-1"""
+  M_PER_DEG_C_M @reference(uri: "http://qudt.org/vocab/unit/M-PER-DEG_C-M")
+
+  """Percent per Degree Celsius | UCUM: %.Cel-1"""
+  PERCENT_PER_DEG_C @reference(uri: "http://qudt.org/vocab/unit/PERCENT-PER-DEG_C")
+
+  """Reciprocal Degree Celsius | UCUM: Cel-1"""
+  PER_DEG_C @reference(uri: "http://qudt.org/vocab/unit/PER-DEG_C")
+
+  """Reciprocal Degree Fahrenheit | UCUM: [degF]-1"""
+  PER_DEG_F @reference(uri: "http://qudt.org/vocab/unit/PER-DEG_F")
+
+  """Reciprocal Kelvin | UCUM: K-1"""
+  PER_K @reference(uri: "http://qudt.org/vocab/unit/PER-K")
+
+  """Reciprocal Megakelvin | UCUM: MK-1"""
+  PER_MEGAK @reference(uri: "http://qudt.org/vocab/unit/PER-MegaK")
+
+  """Parts per Million per Kelvin | UCUM: [ppm].K-1"""
+  PPM_PER_K @reference(uri: "http://qudt.org/vocab/unit/PPM-PER-K")
+
+  """Parts per Ten Million per Kelvin"""
+  PPTM_PER_K @reference(uri: "http://qudt.org/vocab/unit/PPTM-PER-K")
+}

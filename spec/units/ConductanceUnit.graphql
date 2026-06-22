@@ -1,0 +1,36 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum ConductanceUnit @reference(uri: "http://qudt.org/vocab/quantitykind/Conductance") {
+  """Decisiemens | UCUM: dS"""
+  DECIS @reference(uri: "http://qudt.org/vocab/unit/DeciS")
+
+  """Kilosiemens | UCUM: kS"""
+  KILOS @reference(uri: "http://qudt.org/vocab/unit/KiloS")
+
+  """Megasiemens | UCUM: MS"""
+  MEGAS @reference(uri: "http://qudt.org/vocab/unit/MegaS")
+
+  """Mho | UCUM: mho"""
+  MHO @reference(uri: "http://qudt.org/vocab/unit/MHO")
+
+  """Micromho | UCUM: umho"""
+  MICROMHO @reference(uri: "http://qudt.org/vocab/unit/MicroMHO")
+
+  """Microsiemens | UCUM: uS"""
+  MICROS @reference(uri: "http://qudt.org/vocab/unit/MicroS")
+
+  """Millisiemens | UCUM: mS"""
+  MILLIS @reference(uri: "http://qudt.org/vocab/unit/MilliS")
+
+  """Nanosiemens | UCUM: nS"""
+  NANOS @reference(uri: "http://qudt.org/vocab/unit/NanoS")
+
+  """Picosiemens | UCUM: pS"""
+  PICOS @reference(uri: "http://qudt.org/vocab/unit/PicoS")
+
+  """Siemens | UCUM: S"""
+  S @reference(uri: "http://qudt.org/vocab/unit/S")
+}

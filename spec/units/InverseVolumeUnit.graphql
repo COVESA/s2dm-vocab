@@ -1,0 +1,30 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum InverseVolumeUnit @reference(uri: "http://qudt.org/vocab/quantitykind/InverseVolume") {
+  """Reciprocal Cubic Centimeter | UCUM: cm-3"""
+  PER_CENTIM3 @reference(uri: "http://qudt.org/vocab/unit/PER-CentiM3")
+
+  """Reciprocal Cubic Foot | UCUM: [ft_i]-3"""
+  PER_FT3 @reference(uri: "http://qudt.org/vocab/unit/PER-FT3")
+
+  """Reciprocal Cubic Inch | UCUM: [in_i]-3"""
+  PER_IN3 @reference(uri: "http://qudt.org/vocab/unit/PER-IN3")
+
+  """Reciprocal Liter | UCUM: L-1"""
+  PER_L @reference(uri: "http://qudt.org/vocab/unit/PER-L")
+
+  """Reciprocal Cubic Meter | UCUM: m-3"""
+  PER_M3 @reference(uri: "http://qudt.org/vocab/unit/PER-M3")
+
+  """Reciprocal Milliliter | UCUM: mL-1"""
+  PER_MILLIL @reference(uri: "http://qudt.org/vocab/unit/PER-MilliL")
+
+  """Reciprocal Cubic Millimeter | UCUM: mm-3"""
+  PER_MILLIM3 @reference(uri: "http://qudt.org/vocab/unit/PER-MilliM3")
+
+  """Reciprocal Cubic Yard | UCUM: [yd_i]-3"""
+  PER_YD3 @reference(uri: "http://qudt.org/vocab/unit/PER-YD3")
+}

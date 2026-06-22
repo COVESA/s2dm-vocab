@@ -1,0 +1,27 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum CompressibilityUnit @reference(uri: "http://qudt.org/vocab/quantitykind/Compressibility") {
+  """Square Meter per Newton | UCUM: m2.N-1"""
+  M2_PER_N @reference(uri: "http://qudt.org/vocab/unit/M2-PER-N")
+
+  """Percent per Bar | UCUM: %.bar-1"""
+  PERCENT_PER_BAR @reference(uri: "http://qudt.org/vocab/unit/PERCENT-PER-BAR")
+
+  """Percent per Hectobar | UCUM: %.hbar-1"""
+  PERCENT_PER_HECTOBAR @reference(uri: "http://qudt.org/vocab/unit/PERCENT-PER-HectoBAR")
+
+  """Permille per Psi | UCUM: ‰.[psi]-1"""
+  PERMILLE_PER_PSI @reference(uri: "http://qudt.org/vocab/unit/PERMILLE-PER-PSI")
+
+  """Reciprocal Bar | UCUM: bar-1"""
+  PER_BAR @reference(uri: "http://qudt.org/vocab/unit/PER-BAR")
+
+  """Reciprocal Megapascal | UCUM: MPa-1"""
+  PER_MEGAPA @reference(uri: "http://qudt.org/vocab/unit/PER-MegaPA")
+
+  """Reciprocal Pascal | UCUM: Pa-1"""
+  PER_PA @reference(uri: "http://qudt.org/vocab/unit/PER-PA")
+}

@@ -1,0 +1,27 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum SpecificActivityUnit @reference(uri: "http://qudt.org/vocab/quantitykind/SpecificActivity") {
+  """Becquerel per Kilogram | UCUM: Bq.kg-1"""
+  BQ_PER_KILOGM @reference(uri: "http://qudt.org/vocab/unit/BQ-PER-KiloGM")
+
+  """Curie per Kilogram | UCUM: Ci.kg-1"""
+  CI_PER_KILOGM @reference(uri: "http://qudt.org/vocab/unit/CI-PER-KiloGM")
+
+  """Kilobecquerel per Kilogram | UCUM: kBq.kg-1"""
+  KILOBQ_PER_KILOGM @reference(uri: "http://qudt.org/vocab/unit/KiloBQ-PER-KiloGM")
+
+  """Megabecquerel per Kilogram | UCUM: MBq.kg-1"""
+  MEGABQ_PER_KILOGM @reference(uri: "http://qudt.org/vocab/unit/MegaBQ-PER-KiloGM")
+
+  """Microbecquerel per Kilogram | UCUM: uBq.kg-1"""
+  MICROBQ_PER_KILOGM @reference(uri: "http://qudt.org/vocab/unit/MicroBQ-PER-KiloGM")
+
+  """Millibecquerel per Gram | UCUM: mBq.g-1"""
+  MILLIBQ_PER_GM @reference(uri: "http://qudt.org/vocab/unit/MilliBQ-PER-GM")
+
+  """Millibecquerel per Kilogram | UCUM: mBq.kg-1"""
+  MILLIBQ_PER_KILOGM @reference(uri: "http://qudt.org/vocab/unit/MilliBQ-PER-KiloGM")
+}

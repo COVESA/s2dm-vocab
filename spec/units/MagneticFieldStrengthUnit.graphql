@@ -1,0 +1,33 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum MagneticFieldStrengthUnit @reference(uri: "http://qudt.org/vocab/quantitykind/MagneticFieldStrength") {
+  """Ampere Turn per Inch"""
+  AT_PER_IN @reference(uri: "http://qudt.org/vocab/unit/AT-PER-IN")
+
+  """Ampere Turn per Meter"""
+  AT_PER_M @reference(uri: "http://qudt.org/vocab/unit/AT-PER-M")
+
+  """Ampere per Centimeter | UCUM: A.cm-1"""
+  A_PER_CENTIM @reference(uri: "http://qudt.org/vocab/unit/A-PER-CentiM")
+
+  """Ampere per Meter | UCUM: A.m-1"""
+  A_PER_M @reference(uri: "http://qudt.org/vocab/unit/A-PER-M")
+
+  """Ampere per Millimeter | UCUM: A.mm-1"""
+  A_PER_MILLIM @reference(uri: "http://qudt.org/vocab/unit/A-PER-MilliM")
+
+  """Kiloampere per Meter | UCUM: kA.m-1"""
+  KILOA_PER_M @reference(uri: "http://qudt.org/vocab/unit/KiloA-PER-M")
+
+  """Milliampere per Inch | UCUM: mA.[in_i]-1"""
+  MILLIA_PER_IN @reference(uri: "http://qudt.org/vocab/unit/MilliA-PER-IN")
+
+  """Milliampere per Millimeter | UCUM: mA.mm-1"""
+  MILLIA_PER_MILLIM @reference(uri: "http://qudt.org/vocab/unit/MilliA-PER-MilliM")
+
+  """Oersted | UCUM: Oe"""
+  OERSTED @reference(uri: "http://qudt.org/vocab/unit/OERSTED")
+}

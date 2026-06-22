@@ -1,0 +1,27 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum VolumetricBitDensityUnit @reference(uri: "http://qudt.org/vocab/quantitykind/VolumetricBitDensity") {
+  """Bit per Cubic Meter | UCUM: bit.m-3"""
+  BIT_PER_M3 @reference(uri: "http://qudt.org/vocab/unit/BIT-PER-M3")
+
+  """Exbibit per Cubic Meter"""
+  EXBIBIT_PER_M3 @reference(uri: "http://qudt.org/vocab/unit/ExbiBIT-PER-M3")
+
+  """Gibibit per Cubic Meter | UCUM: Gibit.m-3"""
+  GIBIBIT_PER_M3 @reference(uri: "http://qudt.org/vocab/unit/GibiBIT-PER-M3")
+
+  """Kibibit per Cubic Meter | UCUM: Kibit.m-3"""
+  KIBIBIT_PER_M3 @reference(uri: "http://qudt.org/vocab/unit/KibiBIT-PER-M3")
+
+  """Mebibit per Cubic Meter | UCUM: Mibit.m-3"""
+  MEBIBIT_PER_M3 @reference(uri: "http://qudt.org/vocab/unit/MebiBIT-PER-M3")
+
+  """Pebibit per Cubic Meter"""
+  PEBIBIT_PER_M3 @reference(uri: "http://qudt.org/vocab/unit/PebiBIT-PER-M3")
+
+  """Tebibit per Cubic Meter | UCUM: Tibit.m-3"""
+  TEBIBIT_PER_M3 @reference(uri: "http://qudt.org/vocab/unit/TebiBIT-PER-M3")
+}

@@ -1,0 +1,12 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum RotaryTranslatoryMotionConversionUnit @reference(uri: "http://qudt.org/vocab/quantitykind/RotaryTranslatoryMotionConversion") {
+  """Inch per Revolution"""
+  IN_PER_REV @reference(uri: "http://qudt.org/vocab/unit/IN-PER-REV")
+
+  """Meter per Radian | UCUM: m.rad-1"""
+  M_PER_RAD @reference(uri: "http://qudt.org/vocab/unit/M-PER-RAD")
+}

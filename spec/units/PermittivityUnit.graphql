@@ -1,0 +1,27 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum PermittivityUnit @reference(uri: "http://qudt.org/vocab/quantitykind/Permittivity") {
+  """Abfarad per Centimeter | UCUM: GF.cm-1"""
+  FARAD_AB_PER_CENTIM @reference(uri: "http://qudt.org/vocab/unit/FARAD_Ab-PER-CentiM")
+
+  """Farad per Kilometer | UCUM: F.km-1"""
+  FARAD_PER_KILOM @reference(uri: "http://qudt.org/vocab/unit/FARAD-PER-KiloM")
+
+  """Farad per Meter | UCUM: F.m-1"""
+  FARAD_PER_M @reference(uri: "http://qudt.org/vocab/unit/FARAD-PER-M")
+
+  """Microfarad per Kilometer | UCUM: uF.km-1"""
+  MICROFARAD_PER_KILOM @reference(uri: "http://qudt.org/vocab/unit/MicroFARAD-PER-KiloM")
+
+  """Microfarad per Meter | UCUM: uF.m-1"""
+  MICROFARAD_PER_M @reference(uri: "http://qudt.org/vocab/unit/MicroFARAD-PER-M")
+
+  """Nanofarad per Meter | UCUM: nF.m-1"""
+  NANOFARAD_PER_M @reference(uri: "http://qudt.org/vocab/unit/NanoFARAD-PER-M")
+
+  """Picofarad per Meter | UCUM: pF.m-1"""
+  PICOFARAD_PER_M @reference(uri: "http://qudt.org/vocab/unit/PicoFARAD-PER-M")
+}

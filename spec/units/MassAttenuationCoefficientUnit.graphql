@@ -1,0 +1,18 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum MassAttenuationCoefficientUnit @reference(uri: "http://qudt.org/vocab/quantitykind/MassAttenuationCoefficient") {
+  """Square Centimeter per Gram | UCUM: cm2.g-1"""
+  CENTIM2_PER_GM @reference(uri: "http://qudt.org/vocab/unit/CentiM2-PER-GM")
+
+  """Square Meter per Gram | UCUM: m2.g-1"""
+  M2_PER_GM @reference(uri: "http://qudt.org/vocab/unit/M2-PER-GM")
+
+  """Square Meter per Dry Gram | UCUM: m2.g-1{dry}"""
+  M2_PER_GM_DRY @reference(uri: "http://qudt.org/vocab/unit/M2-PER-GM_DRY")
+
+  """Square Meter per Kilogram | UCUM: m2.kg-1"""
+  M2_PER_KILOGM @reference(uri: "http://qudt.org/vocab/unit/M2-PER-KiloGM")
+}

@@ -1,0 +1,12 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum SerumLevelUnit @reference(uri: "http://qudt.org/vocab/quantitykind/SerumLevel") {
+  """International Unit per Liter | UCUM: [IU].L-1"""
+  IU_PER_L @reference(uri: "http://qudt.org/vocab/unit/IU-PER-L")
+
+  """International Unit per Milliliter | UCUM: [IU].mL-1"""
+  IU_PER_MILLIL @reference(uri: "http://qudt.org/vocab/unit/IU-PER-MilliL")
+}

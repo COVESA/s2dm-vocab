@@ -1,0 +1,33 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum ReactivePowerUnit @reference(uri: "http://qudt.org/vocab/quantitykind/ReactivePower") {
+  """Giga Volt Ampere Reactive | UCUM: Gvar"""
+  GIGAVAR @reference(uri: "http://qudt.org/vocab/unit/GigaVAR")
+
+  """Kilo Volt Ampere Reactive | UCUM: kvar"""
+  KILOVAR @reference(uri: "http://qudt.org/vocab/unit/KiloVAR")
+
+  """Mega Volt Ampere Reactive | UCUM: Mvar"""
+  MEGAVAR @reference(uri: "http://qudt.org/vocab/unit/MegaVAR")
+
+  """Micro Volt Ampere Reactive | UCUM: uvar"""
+  MICROVAR @reference(uri: "http://qudt.org/vocab/unit/MicroVAR")
+
+  """Milli Volt Ampere Reactive | UCUM: mvar"""
+  MILLIVAR @reference(uri: "http://qudt.org/vocab/unit/MilliVAR")
+
+  """Nano Volt Ampere Reactive | UCUM: nvar"""
+  NANOVAR @reference(uri: "http://qudt.org/vocab/unit/NanoVAR")
+
+  """Pico Volt Ampere Reactive | UCUM: pvar"""
+  PICOVAR @reference(uri: "http://qudt.org/vocab/unit/PicoVAR")
+
+  """Tera Volt Ampere Reactive | UCUM: Tvar"""
+  TERAVAR @reference(uri: "http://qudt.org/vocab/unit/TeraVAR")
+
+  """Volt Ampere Reactive | UCUM: var"""
+  VAR @reference(uri: "http://qudt.org/vocab/unit/VAR")
+}

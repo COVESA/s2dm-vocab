@@ -1,0 +1,24 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum AngularMomentumUnit @reference(uri: "http://qudt.org/vocab/quantitykind/AngularMomentum") {
+  """Erg Second | UCUM: erg.s"""
+  ERG_SEC @reference(uri: "http://qudt.org/vocab/unit/ERG-SEC")
+
+  """Electron Volt Second | UCUM: eV.s"""
+  EV_SEC @reference(uri: "http://qudt.org/vocab/unit/EV-SEC")
+
+  """Foot Pound Force Second | UCUM: [ft_i].[lbf_av].s"""
+  FT_LB_F_SEC @reference(uri: "http://qudt.org/vocab/unit/FT-LB_F-SEC")
+
+  """Joule Second | UCUM: J.s"""
+  J_SEC @reference(uri: "http://qudt.org/vocab/unit/J-SEC")
+
+  """Kilogram Square Meter per Second | UCUM: kg.m2.s-1"""
+  KILOGM_M2_PER_SEC @reference(uri: "http://qudt.org/vocab/unit/KiloGM-M2-PER-SEC")
+
+  """Newton Meter Second | UCUM: N.m.s"""
+  N_M_SEC @reference(uri: "http://qudt.org/vocab/unit/N-M-SEC")
+}

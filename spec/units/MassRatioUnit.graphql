@@ -1,0 +1,54 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum MassRatioUnit @reference(uri: "http://qudt.org/vocab/quantitykind/MassRatio") {
+  """Femtogram per Kilogram | UCUM: fg.kg-1"""
+  FEMTOGM_PER_KILOGM @reference(uri: "http://qudt.org/vocab/unit/FemtoGM-PER-KiloGM")
+
+  """Gram per Gram | UCUM: g.g-1"""
+  GM_PER_GM @reference(uri: "http://qudt.org/vocab/unit/GM-PER-GM")
+
+  """Gram per Hectogram | UCUM: g.hg-1"""
+  GM_PER_HECTOGM @reference(uri: "http://qudt.org/vocab/unit/GM-PER-HectoGM")
+
+  """Gram per Kilogram | UCUM: g.kg-1"""
+  GM_PER_KILOGM @reference(uri: "http://qudt.org/vocab/unit/GM-PER-KiloGM")
+
+  """Kilogram per Kilogram | UCUM: kg.kg-1"""
+  KILOGM_PER_KILOGM @reference(uri: "http://qudt.org/vocab/unit/KiloGM-PER-KiloGM")
+
+  """Pound Mass per Pound Mass | UCUM: [lb_av].[lb_av]-1"""
+  LB_PER_LB @reference(uri: "http://qudt.org/vocab/unit/LB-PER-LB")
+
+  """Microgram per Gram | UCUM: ug.g-1"""
+  MICROGM_PER_GM @reference(uri: "http://qudt.org/vocab/unit/MicroGM-PER-GM")
+
+  """Microgram per Kilogram | UCUM: ug.kg-1"""
+  MICROGM_PER_KILOGM @reference(uri: "http://qudt.org/vocab/unit/MicroGM-PER-KiloGM")
+
+  """Microgram per Milligram | UCUM: ug.mg-1"""
+  MICROGM_PER_MILLIGM @reference(uri: "http://qudt.org/vocab/unit/MicroGM-PER-MilliGM")
+
+  """Milligram per Gram | UCUM: mg.g-1"""
+  MILLIGM_PER_GM @reference(uri: "http://qudt.org/vocab/unit/MilliGM-PER-GM")
+
+  """Milligram per Kilogram | UCUM: mg.kg-1"""
+  MILLIGM_PER_KILOGM @reference(uri: "http://qudt.org/vocab/unit/MilliGM-PER-KiloGM")
+
+  """Nanogram per Kilogram | UCUM: ng.kg-1"""
+  NANOGM_PER_KILOGM @reference(uri: "http://qudt.org/vocab/unit/NanoGM-PER-KiloGM")
+
+  """Nanogram per Milligram | UCUM: ng.mg-1"""
+  NANOGM_PER_MILLIGM @reference(uri: "http://qudt.org/vocab/unit/NanoGM-PER-MilliGM")
+
+  """Picogram per Gram | UCUM: pg.g-1"""
+  PICOGM_PER_GM @reference(uri: "http://qudt.org/vocab/unit/PicoGM-PER-GM")
+
+  """Picogram per Kilogram | UCUM: pg.kg-1"""
+  PICOGM_PER_KILOGM @reference(uri: "http://qudt.org/vocab/unit/PicoGM-PER-KiloGM")
+
+  """Picogram per Milligram | UCUM: pg.mg-1"""
+  PICOGM_PER_MILLIGM @reference(uri: "http://qudt.org/vocab/unit/PicoGM-PER-MilliGM")
+}

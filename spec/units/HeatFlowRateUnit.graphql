@@ -1,0 +1,60 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum HeatFlowRateUnit @reference(uri: "http://qudt.org/vocab/quantitykind/HeatFlowRate") {
+  """British Thermal Unit (international Definition) per Hour | UCUM: [Btu_IT].h-1"""
+  BTU_IT_PER_HR @reference(uri: "http://qudt.org/vocab/unit/BTU_IT-PER-HR")
+
+  """British Thermal Unit (international Definition) per Minute | UCUM: [Btu_IT].min-1"""
+  BTU_IT_PER_MIN @reference(uri: "http://qudt.org/vocab/unit/BTU_IT-PER-MIN")
+
+  """British Thermal Unit (international Definition) per Second | UCUM: [Btu_IT].s-1"""
+  BTU_IT_PER_SEC @reference(uri: "http://qudt.org/vocab/unit/BTU_IT-PER-SEC")
+
+  """British Thermal Unit (thermochemical Definition) per Hour | UCUM: [Btu_th].h-1"""
+  BTU_TH_PER_HR @reference(uri: "http://qudt.org/vocab/unit/BTU_TH-PER-HR")
+
+  """British Thermal Unit (thermochemical Definition) per Minute | UCUM: [Btu_th].min-1"""
+  BTU_TH_PER_MIN @reference(uri: "http://qudt.org/vocab/unit/BTU_TH-PER-MIN")
+
+  """British Thermal Unit (thermochemical Definition) per Second | UCUM: [Btu_th].s-1"""
+  BTU_TH_PER_SEC @reference(uri: "http://qudt.org/vocab/unit/BTU_TH-PER-SEC")
+
+  """Thermochemical Calorie per Minute | UCUM: cal_th.min-1"""
+  CAL_TH_PER_MIN @reference(uri: "http://qudt.org/vocab/unit/CAL_TH-PER-MIN")
+
+  """Thermochemical Calorie per Second | UCUM: cal_th.s-1"""
+  CAL_TH_PER_SEC @reference(uri: "http://qudt.org/vocab/unit/CAL_TH-PER-SEC")
+
+  """Kilo British Thermal Unit (international Definition) per Hour | UCUM: k[Btu_IT].h-1"""
+  KILOBTU_IT_PER_HR @reference(uri: "http://qudt.org/vocab/unit/KiloBTU_IT-PER-HR")
+
+  """Kilo British Thermal Unit (thermochemical Definition) per Hour | UCUM: k[Btu_th].h-1"""
+  KILOBTU_TH_PER_HR @reference(uri: "http://qudt.org/vocab/unit/KiloBTU_TH-PER-HR")
+
+  """Kilocalorie per Minute | UCUM: kcal.min-1"""
+  KILOCAL_PER_MIN @reference(uri: "http://qudt.org/vocab/unit/KiloCAL-PER-MIN")
+
+  """Kilocalorie per Second | UCUM: kcal.s-1"""
+  KILOCAL_PER_SEC @reference(uri: "http://qudt.org/vocab/unit/KiloCAL-PER-SEC")
+
+  """Kilo Thermochemical Calorie per Hour | UCUM: kcal_th.h-1"""
+  KILOCAL_TH_PER_HR @reference(uri: "http://qudt.org/vocab/unit/KiloCAL_TH-PER-HR")
+
+  """Kilo Thermochemical Calorie per Minute | UCUM: kcal_th.min-1"""
+  KILOCAL_TH_PER_MIN @reference(uri: "http://qudt.org/vocab/unit/KiloCAL_TH-PER-MIN")
+
+  """Kilo Thermochemical Calorie per Second | UCUM: kcal_th.s-1"""
+  KILOCAL_TH_PER_SEC @reference(uri: "http://qudt.org/vocab/unit/KiloCAL_TH-PER-SEC")
+
+  """Mega British Thermal Unit (international Definition) per Hour | UCUM: M[Btu_IT].h-1"""
+  MEGABTU_IT_PER_HR @reference(uri: "http://qudt.org/vocab/unit/MegaBTU_IT-PER-HR")
+
+  """Therm Us per Hour | UCUM: 100000.[Btu_59].h-1"""
+  THM_US_PER_HR @reference(uri: "http://qudt.org/vocab/unit/THM_US-PER-HR")
+
+  """Ton of Refrigeration"""
+  TON_FG @reference(uri: "http://qudt.org/vocab/unit/TON_FG")
+}

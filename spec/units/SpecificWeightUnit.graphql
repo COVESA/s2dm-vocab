@@ -1,0 +1,18 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum SpecificWeightUnit @reference(uri: "http://qudt.org/vocab/quantitykind/SpecificWeight") {
+  """Kilonewton per Cubic Meter | UCUM: kN.m-3"""
+  KILON_PER_M3 @reference(uri: "http://qudt.org/vocab/unit/KiloN-PER-M3")
+
+  """Meganewton per Cubic Meter | UCUM: MN.m-3"""
+  MEGAN_PER_M3 @reference(uri: "http://qudt.org/vocab/unit/MegaN-PER-M3")
+
+  """Newton per Cubic Meter | UCUM: N.m-3"""
+  N_PER_M3 @reference(uri: "http://qudt.org/vocab/unit/N-PER-M3")
+
+  """Imperial Ounce Force per Cubic Inch | UCUM: [ozf_av].[in_i]-3"""
+  OZ_F_PER_IN3 @reference(uri: "http://qudt.org/vocab/unit/OZ_F-PER-IN3")
+}

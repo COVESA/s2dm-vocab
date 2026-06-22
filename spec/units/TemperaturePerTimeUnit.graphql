@@ -1,0 +1,45 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum TemperaturePerTimeUnit @reference(uri: "http://qudt.org/vocab/quantitykind/TemperaturePerTime") {
+  """Degree Celsius per Hour | UCUM: Cel.h-1"""
+  DEG_C_PER_HR @reference(uri: "http://qudt.org/vocab/unit/DEG_C-PER-HR")
+
+  """Degree Celsius per Minute | UCUM: Cel.min-1"""
+  DEG_C_PER_MIN @reference(uri: "http://qudt.org/vocab/unit/DEG_C-PER-MIN")
+
+  """Degree Celsius per Second | UCUM: Cel.s-1"""
+  DEG_C_PER_SEC @reference(uri: "http://qudt.org/vocab/unit/DEG_C-PER-SEC")
+
+  """Degree Celsius per Year | UCUM: Cel.a-1"""
+  DEG_C_PER_YR @reference(uri: "http://qudt.org/vocab/unit/DEG_C-PER-YR")
+
+  """Degree Fahrenheit per Hour | UCUM: [degF].h-1"""
+  DEG_F_PER_HR @reference(uri: "http://qudt.org/vocab/unit/DEG_F-PER-HR")
+
+  """Degree Fahrenheit per Minute | UCUM: [degF].min-1"""
+  DEG_F_PER_MIN @reference(uri: "http://qudt.org/vocab/unit/DEG_F-PER-MIN")
+
+  """Degree Fahrenheit per Second | UCUM: [degF].s-1"""
+  DEG_F_PER_SEC @reference(uri: "http://qudt.org/vocab/unit/DEG_F-PER-SEC")
+
+  """Degree Rankine per Hour | UCUM: [degR].h-1"""
+  DEG_R_PER_HR @reference(uri: "http://qudt.org/vocab/unit/DEG_R-PER-HR")
+
+  """Degree Rankine per Minute | UCUM: [degR].min-1"""
+  DEG_R_PER_MIN @reference(uri: "http://qudt.org/vocab/unit/DEG_R-PER-MIN")
+
+  """Degree Rankine per Second | UCUM: [degR].s-1"""
+  DEG_R_PER_SEC @reference(uri: "http://qudt.org/vocab/unit/DEG_R-PER-SEC")
+
+  """Kelvin per Hour | UCUM: K.h-1"""
+  K_PER_HR @reference(uri: "http://qudt.org/vocab/unit/K-PER-HR")
+
+  """Kelvin per Minute | UCUM: K.min-1"""
+  K_PER_MIN @reference(uri: "http://qudt.org/vocab/unit/K-PER-MIN")
+
+  """Kelvin per Second | UCUM: K.s-1"""
+  K_PER_SEC @reference(uri: "http://qudt.org/vocab/unit/K-PER-SEC")
+}

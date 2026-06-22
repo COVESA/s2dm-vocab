@@ -1,0 +1,129 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum TimeUnit @reference(uri: "http://qudt.org/vocab/quantitykind/Time") {
+  """Attosecond | UCUM: as"""
+  ATTOSEC @reference(uri: "http://qudt.org/vocab/unit/AttoSEC")
+
+  """Centipoise per Bar | UCUM: cP.bar-1"""
+  CENTIPOISE_PER_BAR @reference(uri: "http://qudt.org/vocab/unit/CentiPOISE-PER-BAR")
+
+  """Day | UCUM: d"""
+  DAY @reference(uri: "http://qudt.org/vocab/unit/DAY")
+
+  """Sidereal Day"""
+  DAY_SIDEREAL @reference(uri: "http://qudt.org/vocab/unit/DAY_Sidereal")
+
+  """Decisecond | UCUM: ds"""
+  DECISEC @reference(uri: "http://qudt.org/vocab/unit/DeciSEC")
+
+  """Femtosecond | UCUM: fs"""
+  FEMTOSEC @reference(uri: "http://qudt.org/vocab/unit/FemtoSEC")
+
+  """Hour | UCUM: h"""
+  HR @reference(uri: "http://qudt.org/vocab/unit/HR")
+
+  """Sidereal Hour"""
+  HR_SIDEREAL @reference(uri: "http://qudt.org/vocab/unit/HR_Sidereal")
+
+  """Henry per Kiloohm | UCUM: H.kOhm-1"""
+  H_PER_KILOOHM @reference(uri: "http://qudt.org/vocab/unit/H-PER-KiloOHM")
+
+  """Henry per Ohm | UCUM: H.Ohm-1"""
+  H_PER_OHM @reference(uri: "http://qudt.org/vocab/unit/H-PER-OHM")
+
+  """Kilosecond | UCUM: ks"""
+  KILOSEC @reference(uri: "http://qudt.org/vocab/unit/KiloSEC")
+
+  """Kiloyear | UCUM: ka"""
+  KILOYR @reference(uri: "http://qudt.org/vocab/unit/KiloYR")
+
+  """Megasecond | UCUM: Ms"""
+  MEGASEC @reference(uri: "http://qudt.org/vocab/unit/MegaSEC")
+
+  """Megayear | UCUM: Ma"""
+  MEGAYR @reference(uri: "http://qudt.org/vocab/unit/MegaYR")
+
+  """Microhenry per Kiloohm | UCUM: uH.kOhm-1"""
+  MICROH_PER_KILOOHM @reference(uri: "http://qudt.org/vocab/unit/MicroH-PER-KiloOHM")
+
+  """Microhenry per Ohm | UCUM: uH.Ohm-1"""
+  MICROH_PER_OHM @reference(uri: "http://qudt.org/vocab/unit/MicroH-PER-OHM")
+
+  """Microsecond | UCUM: us"""
+  MICROSEC @reference(uri: "http://qudt.org/vocab/unit/MicroSEC")
+
+  """Millihenry per Kiloohm | UCUM: mH.kOhm-1"""
+  MILLIH_PER_KILOOHM @reference(uri: "http://qudt.org/vocab/unit/MilliH-PER-KiloOHM")
+
+  """Millihenry per Ohm | UCUM: mH.Ohm-1"""
+  MILLIH_PER_OHM @reference(uri: "http://qudt.org/vocab/unit/MilliH-PER-OHM")
+
+  """Millipascal Second per Bar | UCUM: mPa.s.bar-1"""
+  MILLIPA_SEC_PER_BAR @reference(uri: "http://qudt.org/vocab/unit/MilliPA-SEC-PER-BAR")
+
+  """Millisecond | UCUM: ms"""
+  MILLISEC @reference(uri: "http://qudt.org/vocab/unit/MilliSEC")
+
+  """Minute | UCUM: min"""
+  MIN @reference(uri: "http://qudt.org/vocab/unit/MIN")
+
+  """Sidereal Minute"""
+  MIN_SIDEREAL @reference(uri: "http://qudt.org/vocab/unit/MIN_Sidereal")
+
+  """Month | UCUM: mo"""
+  MO @reference(uri: "http://qudt.org/vocab/unit/MO")
+
+  """Mean Gregorian Month | UCUM: mo_g"""
+  MO_MEANGREGORIAN @reference(uri: "http://qudt.org/vocab/unit/MO_MeanGREGORIAN")
+
+  """Mean Julian Month | UCUM: mo_j"""
+  MO_MEANJULIAN @reference(uri: "http://qudt.org/vocab/unit/MO_MeanJulian")
+
+  """Synodic Month | UCUM: mo_s"""
+  MO_SYNODIC @reference(uri: "http://qudt.org/vocab/unit/MO_Synodic")
+
+  """Nanosecond | UCUM: ns"""
+  NANOSEC @reference(uri: "http://qudt.org/vocab/unit/NanoSEC")
+
+  """Pascal Second per Bar | UCUM: Pa.s.bar-1"""
+  PA_SEC_PER_BAR @reference(uri: "http://qudt.org/vocab/unit/PA-SEC-PER-BAR")
+
+  """Picosecond | UCUM: ps"""
+  PICOSEC @reference(uri: "http://qudt.org/vocab/unit/PicoSEC")
+
+  """Planck Time"""
+  PLANCKTIME @reference(uri: "http://qudt.org/vocab/unit/PlanckTime")
+
+  """Poise per Bar | UCUM: P.bar-1"""
+  POISE_PER_BAR @reference(uri: "http://qudt.org/vocab/unit/POISE-PER-BAR")
+
+  """Poise per Pascal | UCUM: P.Pa-1"""
+  POISE_PER_PA @reference(uri: "http://qudt.org/vocab/unit/POISE-PER-PA")
+
+  """Second | UCUM: s"""
+  SEC @reference(uri: "http://qudt.org/vocab/unit/SEC")
+
+  """Shake | UCUM: 10.ns"""
+  SH @reference(uri: "http://qudt.org/vocab/unit/SH")
+
+  """Week | UCUM: wk"""
+  WK @reference(uri: "http://qudt.org/vocab/unit/WK")
+
+  """Year | UCUM: a"""
+  YR @reference(uri: "http://qudt.org/vocab/unit/YR")
+
+  """Common Year"""
+  YR_COMMON @reference(uri: "http://qudt.org/vocab/unit/YR_Common")
+
+  """Metrology Year"""
+  YR_METROLOGY @reference(uri: "http://qudt.org/vocab/unit/YR_Metrology")
+
+  """Sidereal Year"""
+  YR_SIDEREAL @reference(uri: "http://qudt.org/vocab/unit/YR_Sidereal")
+
+  """Tropical Year | UCUM: a_t"""
+  YR_TROPICAL @reference(uri: "http://qudt.org/vocab/unit/YR_TROPICAL")
+}

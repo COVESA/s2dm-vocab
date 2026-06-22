@@ -1,0 +1,12 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum ParticleFluenceRateUnit @reference(uri: "http://qudt.org/vocab/quantitykind/ParticleFluenceRate") {
+  """Micrometer per Liter Day | UCUM: um.L-1.d-1"""
+  MICROM_PER_L_DAY @reference(uri: "http://qudt.org/vocab/unit/MicroM-PER-L-DAY")
+
+  """Reciprocal Square Meter Second | UCUM: m-2.s-1"""
+  PER_M2_SEC @reference(uri: "http://qudt.org/vocab/unit/PER-M2-SEC")
+}

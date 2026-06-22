@@ -1,0 +1,21 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum CountRateUnit @reference(uri: "http://qudt.org/vocab/quantitykind/CountRate") {
+  """Number per Hour | UCUM: {#}.h-1"""
+  NUM_PER_HR @reference(uri: "http://qudt.org/vocab/unit/NUM-PER-HR")
+
+  """Number per Minute | UCUM: {#}.min-1"""
+  NUM_PER_MIN @reference(uri: "http://qudt.org/vocab/unit/NUM-PER-MIN")
+
+  """Number per Second | UCUM: {#}.s-1"""
+  NUM_PER_SEC @reference(uri: "http://qudt.org/vocab/unit/NUM-PER-SEC")
+
+  """Number per Year | UCUM: {#}.a-1"""
+  NUM_PER_YR @reference(uri: "http://qudt.org/vocab/unit/NUM-PER-YR")
+
+  """Sample per Second | UCUM: s-1"""
+  SAMPLE_PER_SEC @reference(uri: "http://qudt.org/vocab/unit/SAMPLE-PER-SEC")
+}

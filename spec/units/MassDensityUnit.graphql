@@ -1,0 +1,180 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum MassDensityUnit @reference(uri: "http://qudt.org/vocab/quantitykind/MassDensity") {
+  """Degree Balling"""
+  DEGREE_BALLING @reference(uri: "http://qudt.org/vocab/unit/DEGREE_BALLING")
+
+  """Degree Baume (origin Scale)"""
+  DEGREE_BAUME @reference(uri: "http://qudt.org/vocab/unit/DEGREE_BAUME")
+
+  """Degree Baume (us Heavy)"""
+  DEGREE_BAUME_US_HEAVY @reference(uri: "http://qudt.org/vocab/unit/DEGREE_BAUME_US_HEAVY")
+
+  """Degree Baume (us Light)"""
+  DEGREE_BAUME_US_LIGHT @reference(uri: "http://qudt.org/vocab/unit/DEGREE_BAUME_US_LIGHT")
+
+  """Degree Brix"""
+  DEGREE_BRIX @reference(uri: "http://qudt.org/vocab/unit/DEGREE_BRIX")
+
+  """Degree Oechsle"""
+  DEGREE_OECHSLE @reference(uri: "http://qudt.org/vocab/unit/DEGREE_OECHSLE")
+
+  """Degree Plato"""
+  DEGREE_PLATO @reference(uri: "http://qudt.org/vocab/unit/DEGREE_PLATO")
+
+  """Degree Twaddell"""
+  DEGREE_TWADDELL @reference(uri: "http://qudt.org/vocab/unit/DEGREE_TWADDELL")
+
+  """Femtogram per Liter | UCUM: fg.L-1"""
+  FEMTOGM_PER_L @reference(uri: "http://qudt.org/vocab/unit/FemtoGM-PER-L")
+
+  """Gram per Cubic Centimeter | UCUM: g.cm-3"""
+  GM_PER_CENTIM3 @reference(uri: "http://qudt.org/vocab/unit/GM-PER-CentiM3")
+
+  """Gram per Deciliter | UCUM: g.dL-1"""
+  GM_PER_DECIL @reference(uri: "http://qudt.org/vocab/unit/GM-PER-DeciL")
+
+  """Gram per Cubic Decimeter | UCUM: g.dm-3"""
+  GM_PER_DECIM3 @reference(uri: "http://qudt.org/vocab/unit/GM-PER-DeciM3")
+
+  """Gram per Liter | UCUM: g.L-1"""
+  GM_PER_L @reference(uri: "http://qudt.org/vocab/unit/GM-PER-L")
+
+  """Gram per Cubic Meter | UCUM: g.m-3"""
+  GM_PER_M3 @reference(uri: "http://qudt.org/vocab/unit/GM-PER-M3")
+
+  """Gram per Milliliter | UCUM: g.mL-1"""
+  GM_PER_MILLIL @reference(uri: "http://qudt.org/vocab/unit/GM-PER-MilliL")
+
+  """Grain per Imperial Gallon | UCUM: [gr].[gal_br]-1"""
+  GRAIN_PER_GAL_IMP @reference(uri: "http://qudt.org/vocab/unit/GRAIN-PER-GAL_IMP")
+
+  """Grain per Us Gallon | UCUM: [gr].[gal_us]-1"""
+  GRAIN_PER_GAL_US @reference(uri: "http://qudt.org/vocab/unit/GRAIN-PER-GAL_US")
+
+  """Grain per Cubic Meter | UCUM: [gr].m-3"""
+  GRAIN_PER_M3 @reference(uri: "http://qudt.org/vocab/unit/GRAIN-PER-M3")
+
+  """Kilogram per Cubic Centimeter | UCUM: kg.cm-3"""
+  KILOGM_PER_CENTIM3 @reference(uri: "http://qudt.org/vocab/unit/KiloGM-PER-CentiM3")
+
+  """Kilogram per Cubic Decimeter | UCUM: kg.dm-3"""
+  KILOGM_PER_DECIM3 @reference(uri: "http://qudt.org/vocab/unit/KiloGM-PER-DeciM3")
+
+  """Kilogram per Liter | UCUM: kg.L-1"""
+  KILOGM_PER_L @reference(uri: "http://qudt.org/vocab/unit/KiloGM-PER-L")
+
+  """Kilogram per Cubic Meter | UCUM: kg.m-3"""
+  KILOGM_PER_M3 @reference(uri: "http://qudt.org/vocab/unit/KiloGM-PER-M3")
+
+  """Pound Mass per Cubic Foot | UCUM: [lb_av].[ft_i]-3"""
+  LB_PER_FT3 @reference(uri: "http://qudt.org/vocab/unit/LB-PER-FT3")
+
+  """Pound Mass per Imperial Gallon | UCUM: [lb_av].[gal_br]-1"""
+  LB_PER_GAL_IMP @reference(uri: "http://qudt.org/vocab/unit/LB-PER-GAL_IMP")
+
+  """Pound Mass per Gallon (UK) | UCUM: [lb_av].[gal_br]-1"""
+  LB_PER_GAL_UK @reference(uri: "http://qudt.org/vocab/unit/LB-PER-GAL_UK")
+
+  """Pound Mass per Us Gallon | UCUM: [lb_av].[gal_us]-1"""
+  LB_PER_GAL_US @reference(uri: "http://qudt.org/vocab/unit/LB-PER-GAL_US")
+
+  """Pound Mass per Cubic Inch | UCUM: [lb_av].[in_i]-3"""
+  LB_PER_IN3 @reference(uri: "http://qudt.org/vocab/unit/LB-PER-IN3")
+
+  """Pound Mass per Cubic Meter | UCUM: [lb_av].m-3"""
+  LB_PER_M3 @reference(uri: "http://qudt.org/vocab/unit/LB-PER-M3")
+
+  """Pound Mass per Cubic Yard | UCUM: [lb_av].[yd_i]-3"""
+  LB_PER_YD3 @reference(uri: "http://qudt.org/vocab/unit/LB-PER-YD3")
+
+  """Megagram per Cubic Meter | UCUM: Mg.m-3"""
+  MEGAGM_PER_M3 @reference(uri: "http://qudt.org/vocab/unit/MegaGM-PER-M3")
+
+  """Microgram per Deciliter | UCUM: ug.dL-1"""
+  MICROGM_PER_DECIL @reference(uri: "http://qudt.org/vocab/unit/MicroGM-PER-DeciL")
+
+  """Microgram per Liter | UCUM: ug.L-1"""
+  MICROGM_PER_L @reference(uri: "http://qudt.org/vocab/unit/MicroGM-PER-L")
+
+  """Microgram per Cubic Meter | UCUM: ug.m-3"""
+  MICROGM_PER_M3 @reference(uri: "http://qudt.org/vocab/unit/MicroGM-PER-M3")
+
+  """Microgram per Milliliter | UCUM: ug.mL-1"""
+  MICROGM_PER_MILLIL @reference(uri: "http://qudt.org/vocab/unit/MicroGM-PER-MilliL")
+
+  """Milligram per Deciliter | UCUM: mg.dL-1"""
+  MILLIGM_PER_DECIL @reference(uri: "http://qudt.org/vocab/unit/MilliGM-PER-DeciL")
+
+  """Milligram per Liter | UCUM: mg.L-1"""
+  MILLIGM_PER_L @reference(uri: "http://qudt.org/vocab/unit/MilliGM-PER-L")
+
+  """Milligram per Cubic Meter | UCUM: mg.m-3"""
+  MILLIGM_PER_M3 @reference(uri: "http://qudt.org/vocab/unit/MilliGM-PER-M3")
+
+  """Milligram per Milliliter | UCUM: mg.mL-1"""
+  MILLIGM_PER_MILLIL @reference(uri: "http://qudt.org/vocab/unit/MilliGM-PER-MilliL")
+
+  """Nanogram per Deciliter | UCUM: ng.dL-1"""
+  NANOGM_PER_DECIL @reference(uri: "http://qudt.org/vocab/unit/NanoGM-PER-DeciL")
+
+  """Nanogram per Liter | UCUM: ng.L-1"""
+  NANOGM_PER_L @reference(uri: "http://qudt.org/vocab/unit/NanoGM-PER-L")
+
+  """Nanogram per Cubic Meter | UCUM: ng.m-3"""
+  NANOGM_PER_M3 @reference(uri: "http://qudt.org/vocab/unit/NanoGM-PER-M3")
+
+  """Nanogram per Microliter | UCUM: ng.uL-1"""
+  NANOGM_PER_MICROL @reference(uri: "http://qudt.org/vocab/unit/NanoGM-PER-MicroL")
+
+  """Nanogram per Milliliter | UCUM: ng.mL-1"""
+  NANOGM_PER_MILLIL @reference(uri: "http://qudt.org/vocab/unit/NanoGM-PER-MilliL")
+
+  """Ounce Mass per Imperial Gallon | UCUM: [oz_av].[gal_br]-1"""
+  OZ_PER_GAL_IMP @reference(uri: "http://qudt.org/vocab/unit/OZ-PER-GAL_IMP")
+
+  """Ounce Mass per Gallon (UK) | UCUM: [oz_av].[gal_br]-1"""
+  OZ_PER_GAL_UK @reference(uri: "http://qudt.org/vocab/unit/OZ-PER-GAL_UK")
+
+  """Ounce Mass per Us Gallon | UCUM: [oz_av].[gal_us]-1"""
+  OZ_PER_GAL_US @reference(uri: "http://qudt.org/vocab/unit/OZ-PER-GAL_US")
+
+  """Ounce Mass per Cubic Inch | UCUM: [oz_av].[in_i]-3"""
+  OZ_PER_IN3 @reference(uri: "http://qudt.org/vocab/unit/OZ-PER-IN3")
+
+  """Ounce Mass per Cubic Yard | UCUM: [oz_av].[yd_i]-3"""
+  OZ_PER_YD3 @reference(uri: "http://qudt.org/vocab/unit/OZ-PER-YD3")
+
+  """Picogram per Liter | UCUM: pg.L-1"""
+  PICOGM_PER_L @reference(uri: "http://qudt.org/vocab/unit/PicoGM-PER-L")
+
+  """Picogram per Milliliter | UCUM: pg.mL-1"""
+  PICOGM_PER_MILLIL @reference(uri: "http://qudt.org/vocab/unit/PicoGM-PER-MilliL")
+
+  """Planck Density"""
+  PLANCKDENSITY @reference(uri: "http://qudt.org/vocab/unit/PlanckDensity")
+
+  """Slug per Cubic Foot"""
+  SLUG_PER_FT3 @reference(uri: "http://qudt.org/vocab/unit/SLUG-PER-FT3")
+
+  """Tonne per Cubic Meter | UCUM: t.m-3"""
+  TONNE_PER_M3 @reference(uri: "http://qudt.org/vocab/unit/TONNE-PER-M3")
+
+  """Long Ton per Cubic Yard | UCUM: [lton_av].[yd_i]-3"""
+  TON_LONG_PER_YD3 @reference(uri: "http://qudt.org/vocab/unit/TON_LONG-PER-YD3")
+
+  """Metric Ton per Cubic Meter | UCUM: t.m-3"""
+  TON_METRIC_PER_M3 @reference(uri: "http://qudt.org/vocab/unit/TON_Metric-PER-M3")
+
+  """Short Ton per Cubic Yard | UCUM: [ston_av].[yd_i]-3"""
+  TON_SHORT_PER_YD3 @reference(uri: "http://qudt.org/vocab/unit/TON_SHORT-PER-YD3")
+
+  """Ton (UK) per Cubic Yard | UCUM: [lton_av].[yd_i]-3"""
+  TON_UK_PER_YD3 @reference(uri: "http://qudt.org/vocab/unit/TON_UK-PER-YD3")
+
+  """Ton (US) per Cubic Yard | UCUM: [ston_av].[yd_i]-3"""
+  TON_US_PER_YD3 @reference(uri: "http://qudt.org/vocab/unit/TON_US-PER-YD3")
+}

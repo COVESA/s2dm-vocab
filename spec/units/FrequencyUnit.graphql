@@ -1,0 +1,84 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum FrequencyUnit @reference(uri: "http://qudt.org/vocab/quantitykind/Frequency") {
+  """Cycle per Second"""
+  CYC_PER_SEC @reference(uri: "http://qudt.org/vocab/unit/CYC-PER-SEC")
+
+  """Gigahertz | UCUM: GHz"""
+  GIGAHZ @reference(uri: "http://qudt.org/vocab/unit/GigaHZ")
+
+  """Hectohertz | UCUM: hHz"""
+  HECTOHZ @reference(uri: "http://qudt.org/vocab/unit/HectoHZ")
+
+  """Hertz | UCUM: Hz"""
+  HZ @reference(uri: "http://qudt.org/vocab/unit/HZ")
+
+  """Kilohertz | UCUM: kHz"""
+  KILOHZ @reference(uri: "http://qudt.org/vocab/unit/KiloHZ")
+
+  """Megahertz | UCUM: MHz"""
+  MEGAHZ @reference(uri: "http://qudt.org/vocab/unit/MegaHZ")
+
+  """Millihertz | UCUM: mHz"""
+  MILLIHZ @reference(uri: "http://qudt.org/vocab/unit/MilliHZ")
+
+  """Number per Hour | UCUM: {#}.h-1"""
+  NUM_PER_HR @reference(uri: "http://qudt.org/vocab/unit/NUM-PER-HR")
+
+  """Number per Second | UCUM: {#}.s-1"""
+  NUM_PER_SEC @reference(uri: "http://qudt.org/vocab/unit/NUM-PER-SEC")
+
+  """Number per Year | UCUM: {#}.a-1"""
+  NUM_PER_YR @reference(uri: "http://qudt.org/vocab/unit/NUM-PER-YR")
+
+  """Percent per Day | UCUM: %.d-1"""
+  PERCENT_PER_DAY @reference(uri: "http://qudt.org/vocab/unit/PERCENT-PER-DAY")
+
+  """Percent per Hour | UCUM: %.h-1"""
+  PERCENT_PER_HR @reference(uri: "http://qudt.org/vocab/unit/PERCENT-PER-HR")
+
+  """Percent per Month | UCUM: %.mo-1"""
+  PERCENT_PER_MO @reference(uri: "http://qudt.org/vocab/unit/PERCENT-PER-MO")
+
+  """Reciprocal Day | UCUM: d-1"""
+  PER_DAY @reference(uri: "http://qudt.org/vocab/unit/PER-DAY")
+
+  """Reciprocal Hour | UCUM: h-1"""
+  PER_HR @reference(uri: "http://qudt.org/vocab/unit/PER-HR")
+
+  """Reciprocal Millisecond | UCUM: ms-1"""
+  PER_MILLISEC @reference(uri: "http://qudt.org/vocab/unit/PER-MilliSEC")
+
+  """Reciprocal Minute | UCUM: min-1"""
+  PER_MIN @reference(uri: "http://qudt.org/vocab/unit/PER-MIN")
+
+  """Reciprocal Month | UCUM: mo-1"""
+  PER_MO @reference(uri: "http://qudt.org/vocab/unit/PER-MO")
+
+  """Reciprocal Second | UCUM: s-1"""
+  PER_SEC @reference(uri: "http://qudt.org/vocab/unit/PER-SEC")
+
+  """Reciprocal Week | UCUM: wk-1"""
+  PER_WK @reference(uri: "http://qudt.org/vocab/unit/PER-WK")
+
+  """Reciprocal Year | UCUM: a-1"""
+  PER_YR @reference(uri: "http://qudt.org/vocab/unit/PER-YR")
+
+  """Petahertz | UCUM: PHz"""
+  PETAHZ @reference(uri: "http://qudt.org/vocab/unit/PetaHZ")
+
+  """Planck Frequency"""
+  PLANCKFREQUENCY @reference(uri: "http://qudt.org/vocab/unit/PlanckFrequency")
+
+  """Parts per Thousand per Hour | UCUM: [ppth].h-1"""
+  PPTH_PER_HR @reference(uri: "http://qudt.org/vocab/unit/PPTH-PER-HR")
+
+  """Sample per Second | UCUM: s-1"""
+  SAMPLE_PER_SEC @reference(uri: "http://qudt.org/vocab/unit/SAMPLE-PER-SEC")
+
+  """Terahertz | UCUM: THz"""
+  TERAHZ @reference(uri: "http://qudt.org/vocab/unit/TeraHZ")
+}

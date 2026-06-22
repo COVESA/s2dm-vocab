@@ -1,0 +1,18 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum SpectralRadiantEnergyDensityUnit @reference(uri: "http://qudt.org/vocab/quantitykind/SpectralRadiantEnergyDensity") {
+  """Joule per Quartic Meter | UCUM: J.m-4"""
+  J_PER_M4 @reference(uri: "http://qudt.org/vocab/unit/J-PER-M4")
+
+  """Kilopascal per Millimeter | UCUM: kPa.mm-1"""
+  KILOPA_PER_MILLIM @reference(uri: "http://qudt.org/vocab/unit/KiloPA-PER-MilliM")
+
+  """Pascal per Meter | UCUM: Pa.m-1"""
+  PA_PER_M @reference(uri: "http://qudt.org/vocab/unit/PA-PER-M")
+
+  """Picopascal per Kilometer | UCUM: pPa.km-1"""
+  PICOPA_PER_KILOM @reference(uri: "http://qudt.org/vocab/unit/PicoPA-PER-KiloM")
+}

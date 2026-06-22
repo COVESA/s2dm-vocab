@@ -1,0 +1,15 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum TotalMassStoppingPowerUnit @reference(uri: "http://qudt.org/vocab/quantitykind/TotalMassStoppingPower") {
+  """Erg Square Centimeter per Gram | UCUM: erg.cm2.g-1"""
+  ERG_CENTIM2_PER_GM @reference(uri: "http://qudt.org/vocab/unit/ERG-CentiM2-PER-GM")
+
+  """Electron Volt Square Meter per Kilogram | UCUM: eV.m2.kg-1"""
+  EV_M2_PER_KILOGM @reference(uri: "http://qudt.org/vocab/unit/EV-M2-PER-KiloGM")
+
+  """Joule Square Meter per Kilogram | UCUM: J.m2.kg-1"""
+  J_M2_PER_KILOGM @reference(uri: "http://qudt.org/vocab/unit/J-M2-PER-KiloGM")
+}

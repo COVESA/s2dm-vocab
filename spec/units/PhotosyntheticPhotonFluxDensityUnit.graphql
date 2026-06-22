@@ -1,0 +1,33 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum PhotosyntheticPhotonFluxDensityUnit @reference(uri: "http://qudt.org/vocab/quantitykind/PhotosyntheticPhotonFluxDensity") {
+  """Micromole per Square Meter Day | UCUM: umol.m-2.d-1"""
+  MICROMOL_PER_M2_DAY @reference(uri: "http://qudt.org/vocab/unit/MicroMOL-PER-M2-DAY")
+
+  """Micromole per Square Meter Hour | UCUM: umol.m-2.h-1"""
+  MICROMOL_PER_M2_HR @reference(uri: "http://qudt.org/vocab/unit/MicroMOL-PER-M2-HR")
+
+  """Micromole per Square Meter Second | UCUM: umol.m-2.s-1"""
+  MICROMOL_PER_M2_SEC @reference(uri: "http://qudt.org/vocab/unit/MicroMOL-PER-M2-SEC")
+
+  """Millimole per Square Meter Day | UCUM: mmol.m-2.d-1"""
+  MILLIMOL_PER_M2_DAY @reference(uri: "http://qudt.org/vocab/unit/MilliMOL-PER-M2-DAY")
+
+  """Millimole per Square Meter Second | UCUM: mmol.m-2.s-1"""
+  MILLIMOL_PER_M2_SEC @reference(uri: "http://qudt.org/vocab/unit/MilliMOL-PER-M2-SEC")
+
+  """Mole per Square Meter Day | UCUM: mol.m-2.d-1"""
+  MOL_PER_M2_DAY @reference(uri: "http://qudt.org/vocab/unit/MOL-PER-M2-DAY")
+
+  """Mole per Square Meter Second | UCUM: mol.m-2.s-1"""
+  MOL_PER_M2_SEC @reference(uri: "http://qudt.org/vocab/unit/MOL-PER-M2-SEC")
+
+  """Nanomole per Square Meter Day | UCUM: nmol.m-2.d-1"""
+  NANOMOL_PER_M2_DAY @reference(uri: "http://qudt.org/vocab/unit/NanoMOL-PER-M2-DAY")
+
+  """Picomole per Square Meter Day | UCUM: pmol.m-2.d-1"""
+  PICOMOL_PER_M2_DAY @reference(uri: "http://qudt.org/vocab/unit/PicoMOL-PER-M2-DAY")
+}

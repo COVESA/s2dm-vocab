@@ -1,0 +1,27 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum BiogeochemicalRateUnit @reference(uri: "http://qudt.org/vocab/quantitykind/BiogeochemicalRate") {
+  """Micromole per Gram Hour | UCUM: umol.g-1.h-1"""
+  MICROMOL_PER_GM_HR @reference(uri: "http://qudt.org/vocab/unit/MicroMOL-PER-GM-HR")
+
+  """Micromole per Gram Second | UCUM: umol.g-1.s-1"""
+  MICROMOL_PER_GM_SEC @reference(uri: "http://qudt.org/vocab/unit/MicroMOL-PER-GM-SEC")
+
+  """Micromole per Kilogram Year | UCUM: umol.kg-1.a-1"""
+  MICROMOL_PER_KILOGM_YR @reference(uri: "http://qudt.org/vocab/unit/MicroMOL-PER-KiloGM-YR")
+
+  """Mole per Gram Hour | UCUM: mol.g-1.h-1"""
+  MOL_PER_GM_HR @reference(uri: "http://qudt.org/vocab/unit/MOL-PER-GM-HR")
+
+  """Nanomole per Gram Hour | UCUM: nmol.g-1.h-1"""
+  NANOMOL_PER_GM_HR @reference(uri: "http://qudt.org/vocab/unit/NanoMOL-PER-GM-HR")
+
+  """Nanomole per Gram Second | UCUM: nmol.g-1.s-1"""
+  NANOMOL_PER_GM_SEC @reference(uri: "http://qudt.org/vocab/unit/NanoMOL-PER-GM-SEC")
+
+  """Nanomole per Microgram Hour | UCUM: nmol.ug-1.h-1"""
+  NANOMOL_PER_MICROGM_HR @reference(uri: "http://qudt.org/vocab/unit/NanoMOL-PER-MicroGM-HR")
+}

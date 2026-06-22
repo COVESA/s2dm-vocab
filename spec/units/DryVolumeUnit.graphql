@@ -1,0 +1,30 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum DryVolumeUnit @reference(uri: "http://qudt.org/vocab/quantitykind/DryVolume") {
+  """Dry Barrel (US)"""
+  BBL_US_DRY @reference(uri: "http://qudt.org/vocab/unit/BBL_US_DRY")
+
+  """Bushel (UK) | UCUM: [bu_br]"""
+  BU_UK @reference(uri: "http://qudt.org/vocab/unit/BU_UK")
+
+  """Bushel (US) | UCUM: [bu_us]"""
+  BU_US @reference(uri: "http://qudt.org/vocab/unit/BU_US")
+
+  """Cord | UCUM: [crd_us]"""
+  CORD @reference(uri: "http://qudt.org/vocab/unit/CORD")
+
+  """Dry Gallon Us | UCUM: [gal_wi]"""
+  GAL_US_DRY @reference(uri: "http://qudt.org/vocab/unit/GAL_US_DRY")
+
+  """Us Dry Pint | UCUM: [dpt_us]"""
+  PINT_US_DRY @reference(uri: "http://qudt.org/vocab/unit/PINT_US_DRY")
+
+  """Us Peck | UCUM: [pk_us]"""
+  PK_US_DRY @reference(uri: "http://qudt.org/vocab/unit/PK_US_DRY")
+
+  """Us Dry Quart | UCUM: [dqt_us]"""
+  QT_US_DRY @reference(uri: "http://qudt.org/vocab/unit/QT_US_DRY")
+}

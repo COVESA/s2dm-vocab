@@ -1,0 +1,12 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum ElectricChargePerAmountOfSubstanceUnit @reference(uri: "http://qudt.org/vocab/quantitykind/ElectricChargePerAmountOfSubstance") {
+  """Coulomb per Mole | UCUM: C.mol-1"""
+  C_PER_MOL @reference(uri: "http://qudt.org/vocab/unit/C-PER-MOL")
+
+  """Statcoulomb per Mole"""
+  C_STAT_PER_MOL @reference(uri: "http://qudt.org/vocab/unit/C_Stat-PER-MOL")
+}

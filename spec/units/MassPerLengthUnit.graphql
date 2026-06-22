@@ -1,0 +1,39 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum MassPerLengthUnit @reference(uri: "http://qudt.org/vocab/quantitykind/MassPerLength") {
+  """Denier | UCUM: [den]"""
+  DENIER @reference(uri: "http://qudt.org/vocab/unit/DENIER")
+
+  """Gram per Kilometer | UCUM: g.km-1"""
+  GM_PER_KILOM @reference(uri: "http://qudt.org/vocab/unit/GM-PER-KiloM")
+
+  """Gram per Meter | UCUM: g.m-1"""
+  GM_PER_M @reference(uri: "http://qudt.org/vocab/unit/GM-PER-M")
+
+  """Gram per Millimeter | UCUM: g.mm-1"""
+  GM_PER_MILLIM @reference(uri: "http://qudt.org/vocab/unit/GM-PER-MilliM")
+
+  """Kilogram per Meter | UCUM: kg.m-1"""
+  KILOGM_PER_M @reference(uri: "http://qudt.org/vocab/unit/KiloGM-PER-M")
+
+  """Kilogram per Millimeter | UCUM: kg.mm-1"""
+  KILOGM_PER_MILLIM @reference(uri: "http://qudt.org/vocab/unit/KiloGM-PER-MilliM")
+
+  """Pound Mass per Foot | UCUM: [lb_av].[ft_i]-1"""
+  LB_PER_FT @reference(uri: "http://qudt.org/vocab/unit/LB-PER-FT")
+
+  """Pound Mass per Inch | UCUM: [lb_av].[in_i]-1"""
+  LB_PER_IN @reference(uri: "http://qudt.org/vocab/unit/LB-PER-IN")
+
+  """Milligram per Meter | UCUM: mg.m-1"""
+  MILLIGM_PER_M @reference(uri: "http://qudt.org/vocab/unit/MilliGM-PER-M")
+
+  """Slug per Foot"""
+  SLUG_PER_FT @reference(uri: "http://qudt.org/vocab/unit/SLUG-PER-FT")
+
+  """Tex | UCUM: tex"""
+  TEX @reference(uri: "http://qudt.org/vocab/unit/TEX")
+}

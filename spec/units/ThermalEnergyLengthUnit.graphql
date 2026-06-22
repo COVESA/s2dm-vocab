@@ -1,0 +1,12 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum ThermalEnergyLengthUnit @reference(uri: "http://qudt.org/vocab/quantitykind/ThermalEnergyLength") {
+  """British Thermal Unit (international Definition) Foot | UCUM: [Btu_IT].[ft_i]"""
+  BTU_IT_FT @reference(uri: "http://qudt.org/vocab/unit/BTU_IT-FT")
+
+  """British Thermal Unit (international Definition) Inch | UCUM: [Btu_IT].[in_i]"""
+  BTU_IT_IN @reference(uri: "http://qudt.org/vocab/unit/BTU_IT-IN")
+}

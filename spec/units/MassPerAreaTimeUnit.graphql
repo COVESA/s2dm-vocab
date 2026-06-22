@@ -1,0 +1,63 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum MassPerAreaTimeUnit @reference(uri: "http://qudt.org/vocab/quantitykind/MassPerAreaTime") {
+  """Dyne Second per Cubic Centimeter | UCUM: dyn.s.cm-3"""
+  DYN_SEC_PER_CENTIM3 @reference(uri: "http://qudt.org/vocab/unit/DYN-SEC-PER-CentiM3")
+
+  """Gram of Carbon per Square Meter Day | UCUM: g.m-2.d-1{C}"""
+  GM_CARBON_PER_M2_DAY @reference(uri: "http://qudt.org/vocab/unit/GM_Carbon-PER-M2-DAY")
+
+  """Gram of Nitrogen per Square Meter Day | UCUM: g.m-2.d-1{N}"""
+  GM_NITROGEN_PER_M2_DAY @reference(uri: "http://qudt.org/vocab/unit/GM_Nitrogen-PER-M2-DAY")
+
+  """Gram per Square Centimeter Year | UCUM: g.cm-2.a-1"""
+  GM_PER_CENTIM2_YR @reference(uri: "http://qudt.org/vocab/unit/GM-PER-CentiM2-YR")
+
+  """Gram per Square Meter Day | UCUM: g.m-2.d-1"""
+  GM_PER_M2_DAY @reference(uri: "http://qudt.org/vocab/unit/GM-PER-M2-DAY")
+
+  """Gram per Square Meter Hour | UCUM: g.m-2.h-1"""
+  GM_PER_M2_HR @reference(uri: "http://qudt.org/vocab/unit/GM-PER-M2-HR")
+
+  """Gram per Square Meter Year | UCUM: g.m-2.a-1"""
+  GM_PER_M2_YR @reference(uri: "http://qudt.org/vocab/unit/GM-PER-M2-YR")
+
+  """Kilogram per Hectare Year | UCUM: kg.har-1.a-1"""
+  KILOGM_PER_HA_YR @reference(uri: "http://qudt.org/vocab/unit/KiloGM-PER-HA-YR")
+
+  """Kilogram per Square Meter Day | UCUM: kg.m-2.d-1"""
+  KILOGM_PER_M2_DAY @reference(uri: "http://qudt.org/vocab/unit/KiloGM-PER-M2-DAY")
+
+  """Kilogram per Square Meter Second | UCUM: kg.m-2.s-1"""
+  KILOGM_PER_M2_SEC @reference(uri: "http://qudt.org/vocab/unit/KiloGM-PER-M2-SEC")
+
+  """Kilogram per Second Square Meter | UCUM: kg.s-1.m-2"""
+  KILOGM_PER_SEC_M2 @reference(uri: "http://qudt.org/vocab/unit/KiloGM-PER-SEC-M2")
+
+  """Megagram per Hectare Year | UCUM: Mg.har-1.a-1"""
+  MEGAGM_PER_HA_YR @reference(uri: "http://qudt.org/vocab/unit/MegaGM-PER-HA-YR")
+
+  """Microgram per Square Centimeter Week | UCUM: ug.cm-2.wk-1"""
+  MICROGM_PER_CENTIM2_WK @reference(uri: "http://qudt.org/vocab/unit/MicroGM-PER-CentiM2-WK")
+
+  """Microgram per Square Meter Day | UCUM: ug.m-2.d-1"""
+  MICROGM_PER_M2_DAY @reference(uri: "http://qudt.org/vocab/unit/MicroGM-PER-M2-DAY")
+
+  """Milligram per Square Meter Day | UCUM: mg.m-2.d-1"""
+  MILLIGM_PER_M2_DAY @reference(uri: "http://qudt.org/vocab/unit/MilliGM-PER-M2-DAY")
+
+  """Milligram per Square Meter Hour | UCUM: mg.m-2.h-1"""
+  MILLIGM_PER_M2_HR @reference(uri: "http://qudt.org/vocab/unit/MilliGM-PER-M2-HR")
+
+  """Milligram per Square Meter Second | UCUM: mg.m-2.s-1"""
+  MILLIGM_PER_M2_SEC @reference(uri: "http://qudt.org/vocab/unit/MilliGM-PER-M2-SEC")
+
+  """Nanogram per Square Centimeter Day | UCUM: ng.cm-2.d-1"""
+  NANOGM_PER_CENTIM2_DAY @reference(uri: "http://qudt.org/vocab/unit/NanoGM-PER-CentiM2-DAY")
+
+  """Tonne per Hectare Year | UCUM: t.har-1.a-1"""
+  TONNE_PER_HA_YR @reference(uri: "http://qudt.org/vocab/unit/TONNE-PER-HA-YR")
+}

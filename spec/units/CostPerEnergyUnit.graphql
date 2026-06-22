@@ -1,0 +1,45 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum CostPerEnergyUnit @reference(uri: "http://qudt.org/vocab/quantitykind/CostPerEnergy") {
+  """Bulgarian Lev per Kilowatt Hour"""
+  CCY_BGN_PER_KILOW_HR @reference(uri: "http://qudt.org/vocab/unit/CCY_BGN-PER-KiloW-HR")
+
+  """Swiss Franc per Kilowatt Hour"""
+  CCY_CHF_PER_KILOW_HR @reference(uri: "http://qudt.org/vocab/unit/CCY_CHF-PER-KiloW-HR")
+
+  """Czech Koruna per Kilowatt Hour"""
+  CCY_CZK_PER_KILOW_HR @reference(uri: "http://qudt.org/vocab/unit/CCY_CZK-PER-KiloW-HR")
+
+  """Danish Krone per Kilowatt Hour"""
+  CCY_DKK_PER_KILOW_HR @reference(uri: "http://qudt.org/vocab/unit/CCY_DKK-PER-KiloW-HR")
+
+  """Euro per Kilowatt Hour"""
+  CCY_EUR_PER_KILOW_HR @reference(uri: "http://qudt.org/vocab/unit/CCY_EUR-PER-KiloW-HR")
+
+  """Euro per Watt Hour"""
+  CCY_EUR_PER_W_HR @reference(uri: "http://qudt.org/vocab/unit/CCY_EUR-PER-W-HR")
+
+  """Euro per Watt Second"""
+  CCY_EUR_PER_W_SEC @reference(uri: "http://qudt.org/vocab/unit/CCY_EUR-PER-W-SEC")
+
+  """Pound Sterling per Kilowatt Hour"""
+  CCY_GBP_PER_KILOW_HR @reference(uri: "http://qudt.org/vocab/unit/CCY_GBP-PER-KiloW-HR")
+
+  """Forint per Kilowatt Hour"""
+  CCY_HUF_PER_KILOW_HR @reference(uri: "http://qudt.org/vocab/unit/CCY_HUF-PER-KiloW-HR")
+
+  """Norwegian Krone per Kilowatt Hour"""
+  CCY_NOK_PER_KILOW_HR @reference(uri: "http://qudt.org/vocab/unit/CCY_NOK-PER-KiloW-HR")
+
+  """Zloty per Kilowatt Hour"""
+  CCY_PLN_PER_KILOW_HR @reference(uri: "http://qudt.org/vocab/unit/CCY_PLN-PER-KiloW-HR")
+
+  """Romanian New Leu per Kilowatt Hour"""
+  CCY_RON_PER_KILOW_HR @reference(uri: "http://qudt.org/vocab/unit/CCY_RON-PER-KiloW-HR")
+
+  """Swedish Krona per Kilowatt Hour"""
+  CCY_SEK_PER_KILOW_HR @reference(uri: "http://qudt.org/vocab/unit/CCY_SEK-PER-KiloW-HR")
+}

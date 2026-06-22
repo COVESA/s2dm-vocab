@@ -1,0 +1,36 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum ElectricFieldStrengthUnit @reference(uri: "http://qudt.org/vocab/quantitykind/ElectricFieldStrength") {
+  """Kilovolt per Meter | UCUM: kV.m-1"""
+  KILOV_PER_M @reference(uri: "http://qudt.org/vocab/unit/KiloV-PER-M")
+
+  """Megavolt per Meter | UCUM: MV.m-1"""
+  MEGAV_PER_M @reference(uri: "http://qudt.org/vocab/unit/MegaV-PER-M")
+
+  """Microvolt per Meter | UCUM: uV.m-1"""
+  MICROV_PER_M @reference(uri: "http://qudt.org/vocab/unit/MicroV-PER-M")
+
+  """Millivolt per Meter | UCUM: mV.m-1"""
+  MILLIV_PER_M @reference(uri: "http://qudt.org/vocab/unit/MilliV-PER-M")
+
+  """Abvolt per Centimeter | UCUM: 10.nV.cm-1"""
+  V_AB_PER_CENTIM @reference(uri: "http://qudt.org/vocab/unit/V_Ab-PER-CentiM")
+
+  """Volt per Centimeter | UCUM: V.cm-1"""
+  V_PER_CENTIM @reference(uri: "http://qudt.org/vocab/unit/V-PER-CentiM")
+
+  """Volt per Inch | UCUM: V.[in_i]-1"""
+  V_PER_IN @reference(uri: "http://qudt.org/vocab/unit/V-PER-IN")
+
+  """Volt per Meter | UCUM: V.m-1"""
+  V_PER_M @reference(uri: "http://qudt.org/vocab/unit/V-PER-M")
+
+  """Volt per Millimeter | UCUM: V.mm-1"""
+  V_PER_MILLIM @reference(uri: "http://qudt.org/vocab/unit/V-PER-MilliM")
+
+  """Statvolt per Centimeter"""
+  V_STAT_PER_CENTIM @reference(uri: "http://qudt.org/vocab/unit/V_Stat-PER-CentiM")
+}

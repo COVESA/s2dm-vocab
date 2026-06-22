@@ -1,0 +1,30 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum ElectricChargeVolumeDensityUnit @reference(uri: "http://qudt.org/vocab/quantitykind/ElectricChargeVolumeDensity") {
+  """Ampere Hour per Cubic Decimeter | UCUM: A.h.dm-3"""
+  A_HR_PER_DECIM3 @reference(uri: "http://qudt.org/vocab/unit/A-HR-PER-DeciM3")
+
+  """Ampere Hour per Cubic Meter | UCUM: A.h.m-3"""
+  A_HR_PER_M3 @reference(uri: "http://qudt.org/vocab/unit/A-HR-PER-M3")
+
+  """Coulomb per Cubic Centimeter | UCUM: C.cm-3"""
+  C_PER_CENTIM3 @reference(uri: "http://qudt.org/vocab/unit/C-PER-CentiM3")
+
+  """Coulomb per Cubic Meter | UCUM: C.m-3"""
+  C_PER_M3 @reference(uri: "http://qudt.org/vocab/unit/C-PER-M3")
+
+  """Coulomb per Cubic Millimeter | UCUM: C.mm-3"""
+  C_PER_MILLIM3 @reference(uri: "http://qudt.org/vocab/unit/C-PER-MilliM3")
+
+  """Gigacoulomb per Cubic Meter | UCUM: GC.m-3"""
+  GIGAC_PER_M3 @reference(uri: "http://qudt.org/vocab/unit/GigaC-PER-M3")
+
+  """Kilocoulomb per Cubic Meter | UCUM: kC.m-3"""
+  KILOC_PER_M3 @reference(uri: "http://qudt.org/vocab/unit/KiloC-PER-M3")
+
+  """Millicoulomb per Cubic Meter | UCUM: mC.m-3"""
+  MILLIC_PER_M3 @reference(uri: "http://qudt.org/vocab/unit/MilliC-PER-M3")
+}

@@ -1,0 +1,69 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum CountUnit @reference(uri: "http://qudt.org/vocab/quantitykind/Count") {
+  """Beat"""
+  BEAT @reference(uri: "http://qudt.org/vocab/unit/BEAT")
+
+  """Billion (Long Scale)"""
+  BILLION_LONG @reference(uri: "http://qudt.org/vocab/unit/BILLION_Long")
+
+  """Billion (Short Scale)"""
+  BILLION_SHORT @reference(uri: "http://qudt.org/vocab/unit/BILLION_Short")
+
+  """Breath"""
+  BREATH @reference(uri: "http://qudt.org/vocab/unit/BREATH")
+
+  """Cases"""
+  CASES @reference(uri: "http://qudt.org/vocab/unit/CASES")
+
+  """Count"""
+  COUNT @reference(uri: "http://qudt.org/vocab/unit/COUNT")
+
+  """Cycle"""
+  CYC @reference(uri: "http://qudt.org/vocab/unit/CYC")
+
+  """Deaths"""
+  DEATHS @reference(uri: "http://qudt.org/vocab/unit/DEATHS")
+
+  """Frame"""
+  FRAME @reference(uri: "http://qudt.org/vocab/unit/FRAME")
+
+  """Hundred"""
+  HUNDRED @reference(uri: "http://qudt.org/vocab/unit/HUNDRED")
+
+  """Individual"""
+  INDIV @reference(uri: "http://qudt.org/vocab/unit/INDIV")
+
+  """Thousand Individuals"""
+  KILOINDIV @reference(uri: "http://qudt.org/vocab/unit/KiloINDIV")
+
+  """Million Individuals"""
+  MEGAINDIV @reference(uri: "http://qudt.org/vocab/unit/MegaINDIV")
+
+  """Million"""
+  MILLION @reference(uri: "http://qudt.org/vocab/unit/MILLION")
+
+  """Number | UCUM: {#}"""
+  NUM @reference(uri: "http://qudt.org/vocab/unit/NUM")
+
+  """One"""
+  ONE @reference(uri: "http://qudt.org/vocab/unit/ONE")
+
+  """Pixel (count)"""
+  PIXEL_COUNT @reference(uri: "http://qudt.org/vocab/unit/PIXEL_COUNT")
+
+  """Sample"""
+  SAMPLE @reference(uri: "http://qudt.org/vocab/unit/SAMPLE")
+
+  """Ten"""
+  TEN @reference(uri: "http://qudt.org/vocab/unit/TEN")
+
+  """Thousand"""
+  THOUSAND @reference(uri: "http://qudt.org/vocab/unit/THOUSAND")
+
+  """Unitless"""
+  UNITLESS @reference(uri: "http://qudt.org/vocab/unit/UNITLESS")
+}

@@ -1,0 +1,21 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum ElectricChargeDensityUnit @reference(uri: "http://qudt.org/vocab/quantitykind/ElectricChargeDensity") {
+  """Ampere Hour per Cubic Decimeter | UCUM: A.h.dm-3"""
+  A_HR_PER_DECIM3 @reference(uri: "http://qudt.org/vocab/unit/A-HR-PER-DeciM3")
+
+  """Ampere Hour per Cubic Meter | UCUM: A.h.m-3"""
+  A_HR_PER_M3 @reference(uri: "http://qudt.org/vocab/unit/A-HR-PER-M3")
+
+  """Coulomb per Cubic Meter | UCUM: C.m-3"""
+  C_PER_M3 @reference(uri: "http://qudt.org/vocab/unit/C-PER-M3")
+
+  """Megacoulomb per Cubic Meter | UCUM: MC.m-3"""
+  MEGAC_PER_M3 @reference(uri: "http://qudt.org/vocab/unit/MegaC-PER-M3")
+
+  """Microcoulomb per Cubic Meter | UCUM: uC.m-3"""
+  MICROC_PER_M3 @reference(uri: "http://qudt.org/vocab/unit/MicroC-PER-M3")
+}

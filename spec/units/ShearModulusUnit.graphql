@@ -1,0 +1,48 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum ShearModulusUnit @reference(uri: "http://qudt.org/vocab/quantitykind/ShearModulus") {
+  """Decapascal | UCUM: daPa"""
+  DECAPA @reference(uri: "http://qudt.org/vocab/unit/DecaPA")
+
+  """Gigapascal | UCUM: GPa"""
+  GIGAPA @reference(uri: "http://qudt.org/vocab/unit/GigaPA")
+
+  """Hectopascal | UCUM: hPa"""
+  HECTOPA @reference(uri: "http://qudt.org/vocab/unit/HectoPA")
+
+  """Kilo Pound Force per Square Inch | UCUM: k[lbf_av].[in_i]-2"""
+  KILOLB_F_PER_IN2 @reference(uri: "http://qudt.org/vocab/unit/KiloLB_F-PER-IN2")
+
+  """Kilopascal | UCUM: kPa"""
+  KILOPA @reference(uri: "http://qudt.org/vocab/unit/KiloPA")
+
+  """Kip per Square Inch | UCUM: k[lbf_av].[in_i]-2"""
+  KIP_F_PER_IN2 @reference(uri: "http://qudt.org/vocab/unit/KIP_F-PER-IN2")
+
+  """Pound Force per Square Inch | UCUM: [lbf_av].[in_i]-2"""
+  LB_F_PER_IN2 @reference(uri: "http://qudt.org/vocab/unit/LB_F-PER-IN2")
+
+  """Megapascal | UCUM: MPa"""
+  MEGAPA @reference(uri: "http://qudt.org/vocab/unit/MegaPA")
+
+  """Megapsi | UCUM: M[psi]"""
+  MEGAPSI @reference(uri: "http://qudt.org/vocab/unit/MegaPSI")
+
+  """Micropascal | UCUM: uPa"""
+  MICROPA @reference(uri: "http://qudt.org/vocab/unit/MicroPA")
+
+  """Millipascal | UCUM: mPa"""
+  MILLIPA @reference(uri: "http://qudt.org/vocab/unit/MilliPA")
+
+  """Pascal | UCUM: Pa"""
+  PA @reference(uri: "http://qudt.org/vocab/unit/PA")
+
+  """Picopascal | UCUM: pPa"""
+  PICOPA @reference(uri: "http://qudt.org/vocab/unit/PicoPA")
+
+  """Psi | UCUM: [psi]"""
+  PSI @reference(uri: "http://qudt.org/vocab/unit/PSI")
+}

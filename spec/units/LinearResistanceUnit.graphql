@@ -1,0 +1,30 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum LinearResistanceUnit @reference(uri: "http://qudt.org/vocab/quantitykind/LinearResistance") {
+  """Gigaohm per Meter | UCUM: GOhm.m-1"""
+  GIGAOHM_PER_M @reference(uri: "http://qudt.org/vocab/unit/GigaOHM-PER-M")
+
+  """Kiloohm per Meter | UCUM: kOhm.m-1"""
+  KILOOHM_PER_M @reference(uri: "http://qudt.org/vocab/unit/KiloOHM-PER-M")
+
+  """Megaohm per Kilometer | UCUM: MOhm.km-1"""
+  MEGAOHM_PER_KILOM @reference(uri: "http://qudt.org/vocab/unit/MegaOHM-PER-KiloM")
+
+  """Megaohm per Meter | UCUM: MOhm.m-1"""
+  MEGAOHM_PER_M @reference(uri: "http://qudt.org/vocab/unit/MegaOHM-PER-M")
+
+  """Milliohm per Meter | UCUM: mOhm.m-1"""
+  MILLIOHM_PER_M @reference(uri: "http://qudt.org/vocab/unit/MilliOHM-PER-M")
+
+  """Ohm per Kilometer | UCUM: Ohm.km-1"""
+  OHM_PER_KILOM @reference(uri: "http://qudt.org/vocab/unit/OHM-PER-KiloM")
+
+  """Ohm per Meter | UCUM: Ohm.m-1"""
+  OHM_PER_M @reference(uri: "http://qudt.org/vocab/unit/OHM-PER-M")
+
+  """Ohm per International Mile | UCUM: Ohm.[mi_i]-1"""
+  OHM_PER_MI @reference(uri: "http://qudt.org/vocab/unit/OHM-PER-MI")
+}

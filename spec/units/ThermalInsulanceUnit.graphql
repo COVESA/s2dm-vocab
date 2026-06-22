@@ -1,0 +1,24 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum ThermalInsulanceUnit @reference(uri: "http://qudt.org/vocab/quantitykind/ThermalInsulance") {
+  """Clo"""
+  CLO @reference(uri: "http://qudt.org/vocab/unit/CLO")
+
+  """Degree Fahrenheit Hour Square Foot per British Thermal Unit (international Definition) | UCUM: [degF].h.[ft_i]2.[Btu_IT]-1"""
+  DEG_F_HR_FT2_PER_BTU_IT @reference(uri: "http://qudt.org/vocab/unit/DEG_F-HR-FT2-PER-BTU_IT")
+
+  """Degree Fahrenheit Hour Square Foot per British Thermal Unit (thermochemical Definition) | UCUM: [degF].h.[ft_i]2.[Btu_th]-1"""
+  DEG_F_HR_FT2_PER_BTU_TH @reference(uri: "http://qudt.org/vocab/unit/DEG_F-HR-FT2-PER-BTU_TH")
+
+  """Square Foot Hour Degree Fahrenheit per British Thermal Unit (international Definition) | UCUM: [ft_i]2.h.[degF].[Btu_IT]-1"""
+  FT2_HR_DEG_F_PER_BTU_IT @reference(uri: "http://qudt.org/vocab/unit/FT2-HR-DEG_F-PER-BTU_IT")
+
+  """Square Meter Hour Degree Celsius per Kilo International Table Calorie | UCUM: m2.h.Cel.kcal_IT-1"""
+  M2_HR_DEG_C_PER_KILOCAL_IT @reference(uri: "http://qudt.org/vocab/unit/M2-HR-DEG_C-PER-KiloCAL_IT")
+
+  """Square Meter Kelvin per Watt | UCUM: m2.K.W-1"""
+  M2_K_PER_W @reference(uri: "http://qudt.org/vocab/unit/M2-K-PER-W")
+}

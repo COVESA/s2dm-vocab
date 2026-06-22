@@ -1,0 +1,39 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum ApparentPowerUnit @reference(uri: "http://qudt.org/vocab/quantitykind/ApparentPower") {
+  """Exa Volt Ampere | UCUM: EVA"""
+  EXAVA @reference(uri: "http://qudt.org/vocab/unit/ExaVA")
+
+  """Giga Volt Ampere | UCUM: GVA"""
+  GIGAVA @reference(uri: "http://qudt.org/vocab/unit/GigaVA")
+
+  """Kilo Volt Ampere | UCUM: kVA"""
+  KILOVA @reference(uri: "http://qudt.org/vocab/unit/KiloVA")
+
+  """Mega Volt Ampere | UCUM: MVA"""
+  MEGAVA @reference(uri: "http://qudt.org/vocab/unit/MegaVA")
+
+  """Micro Volt Ampere | UCUM: uVA"""
+  MICROVA @reference(uri: "http://qudt.org/vocab/unit/MicroVA")
+
+  """Milli Volt Ampere | UCUM: mVA"""
+  MILLIVA @reference(uri: "http://qudt.org/vocab/unit/MilliVA")
+
+  """Nano Volt Ampere | UCUM: nVA"""
+  NANOVA @reference(uri: "http://qudt.org/vocab/unit/NanoVA")
+
+  """Peta Volt Ampere | UCUM: PVA"""
+  PETAVA @reference(uri: "http://qudt.org/vocab/unit/PetaVA")
+
+  """Pico Volt Ampere | UCUM: pVA"""
+  PICOVA @reference(uri: "http://qudt.org/vocab/unit/PicoVA")
+
+  """Tera Volt Ampere | UCUM: TVA"""
+  TERAVA @reference(uri: "http://qudt.org/vocab/unit/TeraVA")
+
+  """Volt Ampere | UCUM: VA"""
+  VA @reference(uri: "http://qudt.org/vocab/unit/VA")
+}

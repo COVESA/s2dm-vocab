@@ -1,0 +1,15 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum ModulusOfRotationalSubgradeReactionUnit @reference(uri: "http://qudt.org/vocab/quantitykind/ModulusOfRotationalSubgradeReaction") {
+  """Kilonewton Meter per Degree Meter | UCUM: kN.m.deg-1.m-1"""
+  KILON_M_PER_DEG_M @reference(uri: "http://qudt.org/vocab/unit/KiloN-M-PER-DEG-M")
+
+  """Newton Meter per Degree Meter | UCUM: N.m.deg-1.m-1"""
+  N_M_PER_DEG_M @reference(uri: "http://qudt.org/vocab/unit/N-M-PER-DEG-M")
+
+  """Newton Meter per Meter Radian | UCUM: N.m.m-1.rad-1"""
+  N_M_PER_M_RAD @reference(uri: "http://qudt.org/vocab/unit/N-M-PER-M-RAD")
+}

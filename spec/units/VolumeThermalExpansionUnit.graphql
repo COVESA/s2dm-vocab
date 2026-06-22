@@ -1,0 +1,24 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum VolumeThermalExpansionUnit @reference(uri: "http://qudt.org/vocab/quantitykind/VolumeThermalExpansion") {
+  """Cubic Centimeter per Kelvin | UCUM: cm3.K-1"""
+  CENTIM3_PER_K @reference(uri: "http://qudt.org/vocab/unit/CentiM3-PER-K")
+
+  """Cubic Foot per Degree Fahrenheit | UCUM: [ft_i]3.[degF]-1"""
+  FT3_PER_DEG_F @reference(uri: "http://qudt.org/vocab/unit/FT3-PER-DEG_F")
+
+  """Liter per Kelvin | UCUM: L.K-1"""
+  L_PER_K @reference(uri: "http://qudt.org/vocab/unit/L-PER-K")
+
+  """Cubic Meter per Kelvin | UCUM: m3.K-1"""
+  M3_PER_K @reference(uri: "http://qudt.org/vocab/unit/M3-PER-K")
+
+  """Milliliter per Kelvin | UCUM: mL.K-1"""
+  MILLIL_PER_K @reference(uri: "http://qudt.org/vocab/unit/MilliL-PER-K")
+
+  """Cubic Yard per Degree Fahrenheit | UCUM: [yd_i]3.[degF]-1"""
+  YD3_PER_DEG_F @reference(uri: "http://qudt.org/vocab/unit/YD3-PER-DEG_F")
+}

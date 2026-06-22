@@ -1,0 +1,63 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum AmountOfSubstanceUnit @reference(uri: "http://qudt.org/vocab/quantitykind/AmountOfSubstance") {
+  """Centimole | UCUM: cmol"""
+  CENTIMOL @reference(uri: "http://qudt.org/vocab/unit/CentiMOL")
+
+  """Femtomole | UCUM: fmol"""
+  FEMTOMOL @reference(uri: "http://qudt.org/vocab/unit/FemtoMOL")
+
+  """International Unit | UCUM: [IU]"""
+  IU @reference(uri: "http://qudt.org/vocab/unit/IU")
+
+  """Kilomole | UCUM: kmol"""
+  KILOMOL @reference(uri: "http://qudt.org/vocab/unit/KiloMOL")
+
+  """Micromole | UCUM: umol"""
+  MICROMOL @reference(uri: "http://qudt.org/vocab/unit/MicroMOL")
+
+  """Millimole | UCUM: mmol"""
+  MILLIMOL @reference(uri: "http://qudt.org/vocab/unit/MilliMOL")
+
+  """Milliosmole | UCUM: mOsmol"""
+  MILLIOSM @reference(uri: "http://qudt.org/vocab/unit/MilliOSM")
+
+  """Mole | UCUM: mol"""
+  MOL @reference(uri: "http://qudt.org/vocab/unit/MOL")
+
+  """Pound Mole | UCUM: [mol_lb]"""
+  MOL_LB @reference(uri: "http://qudt.org/vocab/unit/MOL_LB")
+
+  """Nanomole | UCUM: nmol"""
+  NANOMOL @reference(uri: "http://qudt.org/vocab/unit/NanoMOL")
+
+  """Normal Cubic Meter"""
+  NCM @reference(uri: "http://qudt.org/vocab/unit/NCM")
+
+  """Normal Cubic Metre"""
+  NCM_1ATM_0DEG_C_NL @reference(uri: "http://qudt.org/vocab/unit/NCM_1ATM_0DEG_C_NL")
+
+  """Osmole | UCUM: Osmol"""
+  OSM @reference(uri: "http://qudt.org/vocab/unit/OSM")
+
+  """Picomole | UCUM: pmol"""
+  PICOMOL @reference(uri: "http://qudt.org/vocab/unit/PicoMOL")
+
+  """Standard Cubic Foot"""
+  SCF @reference(uri: "http://qudt.org/vocab/unit/SCF")
+
+  """Standard Cubic Meter"""
+  SCM @reference(uri: "http://qudt.org/vocab/unit/SCM")
+
+  """Standard Cubic Meter"""
+  SCM_1ATM_0DEG_C @reference(uri: "http://qudt.org/vocab/unit/SCM_1ATM_0DEG_C")
+
+  """Standard Cubic Metre"""
+  SCM_1ATM_15DEG_C_ISO @reference(uri: "http://qudt.org/vocab/unit/SCM_1ATM_15DEG_C_ISO")
+
+  """Standard Cubic Metre"""
+  SCM_1ATM_15DEG_C_NL @reference(uri: "http://qudt.org/vocab/unit/SCM_1ATM_15DEG_C_NL")
+}

@@ -1,0 +1,24 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum LuminousIntensityUnit @reference(uri: "http://qudt.org/vocab/quantitykind/LuminousIntensity") {
+  """Candela | UCUM: cd"""
+  CD @reference(uri: "http://qudt.org/vocab/unit/CD")
+
+  """International Candle"""
+  CD_IT @reference(uri: "http://qudt.org/vocab/unit/CD_IT")
+
+  """Candlepower"""
+  CP @reference(uri: "http://qudt.org/vocab/unit/CP")
+
+  """Hefner-kerze"""
+  HK @reference(uri: "http://qudt.org/vocab/unit/HK")
+
+  """Kilocandela | UCUM: kcd"""
+  KILOCD @reference(uri: "http://qudt.org/vocab/unit/KiloCD")
+
+  """Millicandela | UCUM: mcd"""
+  MILLICD @reference(uri: "http://qudt.org/vocab/unit/MilliCD")
+}

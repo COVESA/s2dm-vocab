@@ -1,0 +1,18 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum PermeabilityUnit @reference(uri: "http://qudt.org/vocab/quantitykind/Permeability") {
+  """Henry per Meter | UCUM: H.m-1"""
+  H_PER_M @reference(uri: "http://qudt.org/vocab/unit/H-PER-M")
+
+  """Stathenry per Centimeter"""
+  H_STAT_PER_CENTIM @reference(uri: "http://qudt.org/vocab/unit/H_Stat-PER-CentiM")
+
+  """Microhenry per Meter | UCUM: uH.m-1"""
+  MICROH_PER_M @reference(uri: "http://qudt.org/vocab/unit/MicroH-PER-M")
+
+  """Nanohenry per Meter | UCUM: nH.m-1"""
+  NANOH_PER_M @reference(uri: "http://qudt.org/vocab/unit/NanoH-PER-M")
+}

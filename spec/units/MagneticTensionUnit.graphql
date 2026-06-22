@@ -1,0 +1,24 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum MagneticTensionUnit @reference(uri: "http://qudt.org/vocab/quantitykind/MagneticTension") {
+  """Ampere | UCUM: A"""
+  A @reference(uri: "http://qudt.org/vocab/unit/A")
+
+  """Attoampere | UCUM: aA"""
+  ATTOA @reference(uri: "http://qudt.org/vocab/unit/AttoA")
+
+  """Femtoampere | UCUM: fA"""
+  FEMTOA @reference(uri: "http://qudt.org/vocab/unit/FemtoA")
+
+  """Gigaampere | UCUM: GA"""
+  GIGAA @reference(uri: "http://qudt.org/vocab/unit/GigaA")
+
+  """Petaampere | UCUM: PA"""
+  PETAA @reference(uri: "http://qudt.org/vocab/unit/PetaA")
+
+  """Teraampere | UCUM: TA"""
+  TERAA @reference(uri: "http://qudt.org/vocab/unit/TeraA")
+}

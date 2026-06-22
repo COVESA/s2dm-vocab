@@ -1,0 +1,69 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum AreaUnit @reference(uri: "http://qudt.org/vocab/quantitykind/Area") {
+  """Acre | UCUM: [acr_br]"""
+  AC @reference(uri: "http://qudt.org/vocab/unit/AC")
+
+  """Are | UCUM: ar"""
+  ARE @reference(uri: "http://qudt.org/vocab/unit/ARE")
+
+  """Barn | UCUM: b"""
+  BARN @reference(uri: "http://qudt.org/vocab/unit/BARN")
+
+  """Square Centimeter | UCUM: cm2"""
+  CENTIM2 @reference(uri: "http://qudt.org/vocab/unit/CentiM2")
+
+  """Decaare | UCUM: daar"""
+  DECAARE @reference(uri: "http://qudt.org/vocab/unit/DecaARE")
+
+  """Square Decimeter | UCUM: dm2"""
+  DECIM2 @reference(uri: "http://qudt.org/vocab/unit/DeciM2")
+
+  """Square Foot | UCUM: [ft_i]2"""
+  FT2 @reference(uri: "http://qudt.org/vocab/unit/FT2")
+
+  """Hectare | UCUM: har"""
+  HA @reference(uri: "http://qudt.org/vocab/unit/HA")
+
+  """Square Inch | UCUM: [in_i]2"""
+  IN2 @reference(uri: "http://qudt.org/vocab/unit/IN2")
+
+  """Square Kilometer | UCUM: km2"""
+  KILOM2 @reference(uri: "http://qudt.org/vocab/unit/KiloM2")
+
+  """Kilo Circular Mil | UCUM: k[cml_i]"""
+  KILOMIL_CIRC @reference(uri: "http://qudt.org/vocab/unit/KiloMIL_Circ")
+
+  """Square Meter | UCUM: m2"""
+  M2 @reference(uri: "http://qudt.org/vocab/unit/M2")
+
+  """Square International Mile | UCUM: [mi_i]2"""
+  MI2 @reference(uri: "http://qudt.org/vocab/unit/MI2")
+
+  """Square Micrometer | UCUM: um2"""
+  MICROM2 @reference(uri: "http://qudt.org/vocab/unit/MicroM2")
+
+  """Square Millimeter | UCUM: mm2"""
+  MILLIM2 @reference(uri: "http://qudt.org/vocab/unit/MilliM2")
+
+  """Circular Mil | UCUM: [cml_i]"""
+  MIL_CIRC @reference(uri: "http://qudt.org/vocab/unit/MIL_Circ")
+
+  """Square Us Survey Mile | UCUM: [mi_us]2"""
+  MI_US2 @reference(uri: "http://qudt.org/vocab/unit/MI_US2")
+
+  """Square Nanometer | UCUM: nm2"""
+  NANOM2 @reference(uri: "http://qudt.org/vocab/unit/NanoM2")
+
+  """Pixel (area)"""
+  PIXEL_AREA @reference(uri: "http://qudt.org/vocab/unit/PIXEL_AREA")
+
+  """Planck Area"""
+  PLANCKAREA @reference(uri: "http://qudt.org/vocab/unit/PlanckArea")
+
+  """Square Yard | UCUM: [yd_i]2"""
+  YD2 @reference(uri: "http://qudt.org/vocab/unit/YD2")
+}

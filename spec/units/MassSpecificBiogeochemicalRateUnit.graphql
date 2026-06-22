@@ -1,0 +1,18 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum MassSpecificBiogeochemicalRateUnit @reference(uri: "http://qudt.org/vocab/quantitykind/MassSpecificBiogeochemicalRate") {
+  """Microgram per Gram Day | UCUM: ug.g-1.d-1"""
+  MICROGM_PER_GM_DAY @reference(uri: "http://qudt.org/vocab/unit/MicroGM-PER-GM-DAY")
+
+  """Microgram per Gram Hour | UCUM: ug.g-1.h-1"""
+  MICROGM_PER_GM_HR @reference(uri: "http://qudt.org/vocab/unit/MicroGM-PER-GM-HR")
+
+  """Milligram per Gram Hour | UCUM: mg.g-1.h-1"""
+  MILLIGM_PER_GM_HR @reference(uri: "http://qudt.org/vocab/unit/MilliGM-PER-GM-HR")
+
+  """Milligram per Kilogram Day | UCUM: mg.kg-1.d-1"""
+  MILLIGM_PER_KILOGM_DAY @reference(uri: "http://qudt.org/vocab/unit/MilliGM-PER-KiloGM-DAY")
+}

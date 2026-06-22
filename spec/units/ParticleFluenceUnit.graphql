@@ -1,0 +1,24 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum ParticleFluenceUnit @reference(uri: "http://qudt.org/vocab/quantitykind/ParticleFluence") {
+  """Number per Hectare | UCUM: {#}.har-1"""
+  NUM_PER_HA @reference(uri: "http://qudt.org/vocab/unit/NUM-PER-HA")
+
+  """Number per Square Kilometer | UCUM: {#}.km-2"""
+  NUM_PER_KILOM2 @reference(uri: "http://qudt.org/vocab/unit/NUM-PER-KiloM2")
+
+  """Number per Square Meter | UCUM: {#}.m-2"""
+  NUM_PER_M2 @reference(uri: "http://qudt.org/vocab/unit/NUM-PER-M2")
+
+  """Reciprocal Square Inch | UCUM: [in_i]-2"""
+  PER_IN2 @reference(uri: "http://qudt.org/vocab/unit/PER-IN2")
+
+  """Reciprocal Square Meter | UCUM: m-2"""
+  PER_M2 @reference(uri: "http://qudt.org/vocab/unit/PER-M2")
+
+  """Reciprocal Meter Nanometer | UCUM: m-1.nm-1"""
+  PER_M_NANOM @reference(uri: "http://qudt.org/vocab/unit/PER-M-NanoM")
+}

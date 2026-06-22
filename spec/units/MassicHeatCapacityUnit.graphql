@@ -1,0 +1,12 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum MassicHeatCapacityUnit @reference(uri: "http://qudt.org/vocab/quantitykind/MassicHeatCapacity") {
+  """British Thermal Unit (thermochemical Definition) per Pound Mass Degree Rankine | UCUM: [Btu_th].[lb_av]-1.[degR]-1"""
+  BTU_TH_PER_LB_DEG_R @reference(uri: "http://qudt.org/vocab/unit/BTU_TH-PER-LB-DEG_R")
+
+  """Kilo International Table Calorie per Gram Kelvin | UCUM: kcal_IT.g-1.K-1"""
+  KILOCAL_IT_PER_GM_K @reference(uri: "http://qudt.org/vocab/unit/KiloCAL_IT-PER-GM-K")
+}

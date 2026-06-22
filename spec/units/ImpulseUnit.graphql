@@ -1,0 +1,18 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum ImpulseUnit @reference(uri: "http://qudt.org/vocab/quantitykind/Impulse") {
+  """Gram Centimeter per Second | UCUM: g.cm.s-1"""
+  GM_CENTIM_PER_SEC @reference(uri: "http://qudt.org/vocab/unit/GM-CentiM-PER-SEC")
+
+  """Kilogram Centimeter per Second | UCUM: kg.cm.s-1"""
+  KILOGM_CENTIM_PER_SEC @reference(uri: "http://qudt.org/vocab/unit/KiloGM-CentiM-PER-SEC")
+
+  """Pound Mass Foot per Second | UCUM: [lb_av].[ft_i].s-1"""
+  LB_FT_PER_SEC @reference(uri: "http://qudt.org/vocab/unit/LB-FT-PER-SEC")
+
+  """Pound Mass Inch per Second | UCUM: [lb_av].[in_i].s-1"""
+  LB_IN_PER_SEC @reference(uri: "http://qudt.org/vocab/unit/LB-IN-PER-SEC")
+}

@@ -1,0 +1,33 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum DatasetOfBitsUnit @reference(uri: "http://qudt.org/vocab/quantitykind/DatasetOfBits") {
+  """Gibibit | UCUM: Gibit"""
+  GIBIBIT @reference(uri: "http://qudt.org/vocab/unit/GibiBIT")
+
+  """Gigabit | UCUM: Gbit"""
+  GIGABIT @reference(uri: "http://qudt.org/vocab/unit/GigaBIT")
+
+  """Kibibit | UCUM: Kibit"""
+  KIBIBIT @reference(uri: "http://qudt.org/vocab/unit/KibiBIT")
+
+  """Kilobit | UCUM: kbit"""
+  KILOBIT @reference(uri: "http://qudt.org/vocab/unit/KiloBIT")
+
+  """Mebibit | UCUM: Mibit"""
+  MEBIBIT @reference(uri: "http://qudt.org/vocab/unit/MebiBIT")
+
+  """Megabit | UCUM: Mbit"""
+  MEGABIT @reference(uri: "http://qudt.org/vocab/unit/MegaBIT")
+
+  """Octet"""
+  OCTET @reference(uri: "http://qudt.org/vocab/unit/OCTET")
+
+  """Petabit | UCUM: Pbit"""
+  PETABIT @reference(uri: "http://qudt.org/vocab/unit/PetaBIT")
+
+  """Terabit | UCUM: Tbit"""
+  TERABIT @reference(uri: "http://qudt.org/vocab/unit/TeraBIT")
+}

@@ -1,0 +1,30 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum DataRateUnit @reference(uri: "http://qudt.org/vocab/quantitykind/DataRate") {
+  """Bit per Second | UCUM: bit.s-1"""
+  BIT_PER_SEC @reference(uri: "http://qudt.org/vocab/unit/BIT-PER-SEC")
+
+  """Exabit per Second | UCUM: Ebit.s-1"""
+  EXABIT_PER_SEC @reference(uri: "http://qudt.org/vocab/unit/ExaBIT-PER-SEC")
+
+  """Gigabit per Second | UCUM: Gbit.s-1"""
+  GIGABIT_PER_SEC @reference(uri: "http://qudt.org/vocab/unit/GigaBIT-PER-SEC")
+
+  """Kilobit per Second | UCUM: kbit.s-1"""
+  KILOBIT_PER_SEC @reference(uri: "http://qudt.org/vocab/unit/KiloBIT-PER-SEC")
+
+  """Kilobyte per Second | UCUM: kBy.s-1"""
+  KILOBYTE_PER_SEC @reference(uri: "http://qudt.org/vocab/unit/KiloBYTE-PER-SEC")
+
+  """Megabit per Second | UCUM: Mbit.s-1"""
+  MEGABIT_PER_SEC @reference(uri: "http://qudt.org/vocab/unit/MegaBIT-PER-SEC")
+
+  """Petabit per Second | UCUM: Pbit.s-1"""
+  PETABIT_PER_SEC @reference(uri: "http://qudt.org/vocab/unit/PetaBIT-PER-SEC")
+
+  """Terabit per Second | UCUM: Tbit.s-1"""
+  TERABIT_PER_SEC @reference(uri: "http://qudt.org/vocab/unit/TeraBIT-PER-SEC")
+}

@@ -1,0 +1,21 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum RotationalMassUnit @reference(uri: "http://qudt.org/vocab/quantitykind/RotationalMass") {
+  """Kilogram Square Centimeter | UCUM: kg.cm2"""
+  KILOGM_CENTIM2 @reference(uri: "http://qudt.org/vocab/unit/KiloGM-CentiM2")
+
+  """Kilogram Square Meter | UCUM: kg.m2"""
+  KILOGM_M2 @reference(uri: "http://qudt.org/vocab/unit/KiloGM-M2")
+
+  """Kilogram Square Millimeter | UCUM: kg.mm2"""
+  KILOGM_MILLIM2 @reference(uri: "http://qudt.org/vocab/unit/KiloGM-MilliM2")
+
+  """Pound Mass Square Foot | UCUM: [lb_av].[ft_i]2"""
+  LB_FT2 @reference(uri: "http://qudt.org/vocab/unit/LB-FT2")
+
+  """Pound Mass Square Inch | UCUM: [lb_av].[in_i]2"""
+  LB_IN2 @reference(uri: "http://qudt.org/vocab/unit/LB-IN2")
+}

@@ -1,0 +1,27 @@
+# Generated from QUDT units catalog version v3.3.0
+# Source data: QUDT Public Repository (https://github.com/qudt/qudt-public-repo)
+# © QUDT.org — Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License: https://creativecommons.org/licenses/by/4.0/
+# Changes: vocabulary terms transformed to GraphQL SDL enum format by S2DM (https://github.com/COVESA/s2dm)
+enum TimeTemperatureUnit @reference(uri: "http://qudt.org/vocab/quantitykind/TimeTemperature") {
+  """Degree Celsius Day | UCUM: Cel.d"""
+  DEG_C_DAY @reference(uri: "http://qudt.org/vocab/unit/DEG_C-DAY")
+
+  """Degree Celsius Hour | UCUM: Cel.h"""
+  DEG_C_HR @reference(uri: "http://qudt.org/vocab/unit/DEG_C-HR")
+
+  """Degree Celsius Week | UCUM: Cel.wk"""
+  DEG_C_WK @reference(uri: "http://qudt.org/vocab/unit/DEG_C-WK")
+
+  """Degree Fahrenheit Day | UCUM: [degF].d"""
+  DEG_F_DAY @reference(uri: "http://qudt.org/vocab/unit/DEG_F-DAY")
+
+  """Degree Fahrenheit Hour | UCUM: [degF].h"""
+  DEG_F_HR @reference(uri: "http://qudt.org/vocab/unit/DEG_F-HR")
+
+  """Kelvin Day | UCUM: K.d"""
+  K_DAY @reference(uri: "http://qudt.org/vocab/unit/K-DAY")
+
+  """Kelvin Second | UCUM: K.s"""
+  K_SEC @reference(uri: "http://qudt.org/vocab/unit/K-SEC")
+}
