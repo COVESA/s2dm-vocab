@@ -1,0 +1,9 @@
+"""
+To annotate the valid cardinality for a field (i.e., how many elements are allowed).
+* min: the minimum allowed occurrences.
+* max: the maximum allowed occurrences.
+"""
+directive @cardinality(
+  min: Int
+  max: Int
+) on FIELD_DEFINITION

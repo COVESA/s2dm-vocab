@@ -1,0 +1,9 @@
+"""
+To annotate the correspondance between GraphQL elements and their identities in the Model Ledger (ModL).
+* concept: identifies the meaning of the annotated element.
+* contract: identifies the specific data structure variant that downstream users must comply to.
+"""
+directive @modl(
+  concept: String!
+  contract: String!
+) on FIELD_DEFINITION | OBJECT | ENUM | ENUM_VALUE

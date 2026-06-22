@@ -1,0 +1,6 @@
+"""
+To annotate the valid range for a numeric field.
+* min: the minimum allowed value.
+* max: the maximum allowed value.
+"""
+directive @range(min: Float, max: Float) on FIELD_DEFINITION
