@@ -1,0 +1,27 @@
+name: Deploy S2DM Docs to GitHub Pages
+# Live site: https://covesa.github.io/vdm/
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "spec/**"
+      - ".github/workflows/docs.yaml"
+      - "pyproject.toml"
+  workflow_dispatch:
+
+# Required for GitHub Pages deployment via the reusable workflow
+permissions:
+  pages: write
+  id-token: write
+
+jobs:
+  docs:
+    uses: COVESA/s2dm/.github/workflows/docs-build.yml@main
+    with:
+      project_title: "S2DM Vocabulary"
+      project_name: s2dm-vocab
+      org_name: COVESA
+      pages_url: https://covesa.github.io/s2dm-vocab
+      github_repo_url: https://github.com/COVESA/s2dm-vocab
+      schema_sources: "spec"
