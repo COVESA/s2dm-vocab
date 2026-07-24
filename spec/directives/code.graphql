@@ -1,0 +1,9 @@
+"""
+To annotate an enum value with a certain numeric code.
+The meaning of the code is context-dependent and should be documented in the enum value description.
+This directive enables programmatic access to the code value.
+For example, a weekday enum can be annotated with the ISO 8601 weekday number like MONDAY @code(intValue: 1).
+* intValue: the integer value to associate with the enum value.
+* floatValue: the float value to associate with the enum value.
+"""
+directive @code(intValue: Int, floatValue: Float) on ENUM_VALUE
