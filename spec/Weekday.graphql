@@ -1,0 +1,39 @@
+"""
+Weekday values with numeric code annotations that follow ISO 8601 numbering where Monday is 1 and Sunday is 7.
+"""
+enum Weekday {
+  """
+  Monday (ISO 8601 day 1).
+  """
+  MONDAY @code(intValue: 1)
+
+  """
+  Tuesday (ISO 8601 day 2).
+  """
+  TUESDAY @code(intValue: 2)
+
+  """
+  Wednesday (ISO 8601 day 3).
+  """
+  WEDNESDAY @code(intValue: 3)
+
+  """
+  Thursday (ISO 8601 day 4).
+  """
+  THURSDAY @code(intValue: 4)
+
+  """
+  Friday (ISO 8601 day 5).
+  """
+  FRIDAY @code(intValue: 5)
+
+  """
+  Saturday (ISO 8601 day 6).
+  """
+  SATURDAY @code(intValue: 6)
+
+  """
+  Sunday (ISO 8601 day 7).
+  """
+  SUNDAY @code(intValue: 7)
+}
