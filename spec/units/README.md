@@ -22,6 +22,10 @@ Changes: vocabulary terms transformed to GraphQL SDL enum format by
 | QUDT catalog version | `v3.5.2` |
 | S2DM version | `0.28.1` |
 
+Elements deprecated in QUDT (units and quantity kinds intentionally not mapped
+above) are listed in [CHANGELOG.md](./CHANGELOG.md), or can be inspected directly
+at the [QUDT `v3.5.2` release page](https://github.com/qudt/qudt-public-repo/releases/tag/v3.5.2).
+
 ## Usage
 
 Run `s2dm units sync` to regenerate these files from the latest QUDT catalog.
