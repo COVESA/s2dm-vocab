@@ -5,7 +5,106 @@ Snapshot of quantity kinds and units marked `qudt:deprecated true` in QUDT catal
 
 ## Deprecated Quantity Kinds
 
-_None in this release._
+| Label | IRI | Deprecated in | Replaced by |
+|---|---|---|---|
+| API Gravity | `http://qudt.org/vocab/quantitykind/Gravity_API` | 3.1.3 | `APIGravity` |
+| Blood Glucose Level by Mass | `http://qudt.org/vocab/quantitykind/BloodGlucoseLevel_Mass` | 3.1.3 | `MassBasedBloodGlucoseLevel` |
+| Capacity | `http://qudt.org/vocab/quantitykind/Capacity` | 3.5.0 | `DataCapacity` |
+| Center of Gravity in the X axis | `http://qudt.org/vocab/quantitykind/CENTER-OF-GRAVITY_X` | 3.1.3 | `CenterOfGravity_X` |
+| Center of Gravity in the Y axis | `http://qudt.org/vocab/quantitykind/CENTER-OF-GRAVITY_Y` | 3.1.3 | `CenterOfGravity_Y` |
+| Center of Gravity in the Z axis | `http://qudt.org/vocab/quantitykind/CENTER-OF-GRAVITY_Z` | 3.1.3 | `CenterOfGravity_Z` |
+| Center of Mass (CoM) | `http://qudt.org/vocab/quantitykind/CENTER-OF-MASS` | 3.2.0 | — |
+| Complex Power | `http://qudt.org/vocab/quantitykind/ComplexPower` | 3.1.1 | `ElectricPower` |
+| Conductivity | `http://qudt.org/vocab/quantitykind/Conductivity` | 3.1.11 | `ElectricConductivity` |
+| Conductivity Variance, NEON | `http://qudt.org/vocab/quantitykind/ConductivityVariance_NEON` | 3.1.3 | `ConductivityVariance` |
+| Contract End Item (CEI) Specification Mass. | `http://qudt.org/vocab/quantitykind/CONTRACT-END-ITEM-SPECIFICATION-MASS` | 3.2.0 | — |
+| Control Mass. | `http://qudt.org/vocab/quantitykind/CONTROL-MASS` | 3.2.0 | — |
+| Cubic Electric Dipole Moment per Square Energy | `http://qudt.org/vocab/quantitykind/ElectricDipoleMoment_CubicPerEnergy_Squared` | 3.1.3 | `CubicElectricDipoleMomentPerSquareEnergy` |
+| Debye-Waller Factor | `http://qudt.org/vocab/quantitykind/Debye-WallerFactor` | 3.2.0 | `DebyeWallerFactor` |
+| Delta-V | `http://qudt.org/vocab/quantitykind/DELTA-V` | 3.2.0 | — |
+| Density of states | `http://qudt.org/vocab/quantitykind/DensityOfStates` | 3.1.5 | `VibrationalDensityOfStates` |
+| Dry Mass | `http://qudt.org/vocab/quantitykind/DRY-MASS` | 3.2.0 | — |
+| Electric Charge Linear Density | `http://qudt.org/vocab/quantitykind/ElectricChargeLinearDensity` | 3.2.0 | `LinearElectricChargeDensity` |
+| Energy Per Square Magnetic Flux Density | `http://qudt.org/vocab/quantitykind/EnergyPerMagneticFluxDensity_Squared` | 3.1.3 | `EnergyPerSquareMagneticFluxDensity` |
+| Final Or Current Vehicle Mass | `http://qudt.org/vocab/quantitykind/FinalOrCurrentVehicleMass` | 3.1.4 | — |
+| Flight Performance Reserve Propellant Mass | `http://qudt.org/vocab/quantitykind/FLIGHT-PERFORMANCE-RESERVE-PROPELLANT-MASS` | 3.2.0 | — |
+| Fuel Bias | `http://qudt.org/vocab/quantitykind/FUEL-BIAS` | 3.2.0 | — |
+| Gross Lift-Off Weight | `http://qudt.org/vocab/quantitykind/GROSS-LIFT-OFF-WEIGHT` | 3.2.0 | — |
+| Growing Degree Days (Cereals) | `http://qudt.org/vocab/quantitykind/GrowingDegreeDay_Cereal` | 3.1.3 | `GrowingDegreeDay` |
+| Half-Value Thickness | `http://qudt.org/vocab/quantitykind/Half-ValueThickness` | 3.2.0 | `HalfValueThickness` |
+| Inert Mass | `http://qudt.org/vocab/quantitykind/INERT-MASS` | 3.2.0 | — |
+| Information Content Expressed as a Logarithm to Base 10 | `http://qudt.org/vocab/quantitykind/InformationContentExpressedAsALogarithmToBase10` | 3.5.0 | `InformationContent` |
+| Information Content Expressed as a Logarithm to Base 2 | `http://qudt.org/vocab/quantitykind/InformationContentExpressedAsALogarithmToBase2` | 3.5.0 | `InformationContent` |
+| Information Content Expressed as a Logarithm to Base e | `http://qudt.org/vocab/quantitykind/InformationContentExpressedAsALogarithmToBaseE` | 3.5.0 | `InformationContent` |
+| Intrinsic Carrier Density | `http://qudt.org/vocab/quantitykind/IntinsicCarrierDensity` | 3.2.0 | `IntrinsicCarrierDensity` |
+| Inverse Square Energy | `http://qudt.org/vocab/quantitykind/InverseEnergy_Squared` | 3.1.3 | `InverseSquareEnergy` |
+| Inverse Square Mass | `http://qudt.org/vocab/quantitykind/InverseMass_Squared` | 3.1.3 | `InverseSquareMass` |
+| Inverse Square Time | `http://qudt.org/vocab/quantitykind/InverseTime_Squared` | 3.1.3 | `InverseSquareTime` |
+| Landau-Ginzburg Number | `http://qudt.org/vocab/quantitykind/Landau-GinzburgNumber` | 3.2.0 | `LandauGinzburgNumber` |
+| Linear Logarithmic Ratio | `http://qudt.org/vocab/quantitykind/LinearLogarithmicRatio` | 3.5.0 | `Log10RatioPerLength` |
+| Lineic Logarithmic Ratio | `http://qudt.org/vocab/quantitykind/LineicLogarithmicRatio` | 3.5.0 | `Log10RatioPerLength` |
+| Logarithm Ratio to Base 10 | `http://qudt.org/vocab/quantitykind/LogarithmRatioToBase10` | 3.5.0 | `Log10Ratio` |
+| Logarithm Ratio to Base e | `http://qudt.org/vocab/quantitykind/LogarithmRatioToBaseE` | 3.5.0 | `LogERatio` |
+| Logarithmic Frequency Interval to Base 10 | `http://qudt.org/vocab/quantitykind/LogarithmicFrequencyIntervalToBase10` | 3.5.0 | `Log10FrequencyInterval` |
+| Long-Range Order Parameter | `http://qudt.org/vocab/quantitykind/Long-RangeOrderParameter` | 3.2.0 | `LongRangeOrderParameter` |
+| Mass Amount of Substance | `http://qudt.org/vocab/quantitykind/MassAmountOfSubstance` | 3.5.0 | `AmountOfSubstancePerMass` |
+| Mass Delivered | `http://qudt.org/vocab/quantitykind/MASS-DELIVERED` | 3.2.0 | — |
+| Mass Equivalent | `http://qudt.org/vocab/quantitykind/Equivalent_Mass` | 3.1.3 | `MassEquivalent` |
+| Mass Growth Allowance | `http://qudt.org/vocab/quantitykind/MASS-GROWTH-ALLOWANCE` | 3.2.0 | — |
+| Mass Margin | `http://qudt.org/vocab/quantitykind/MASS-MARGIN` | 3.2.0 | — |
+| Mass Property Uncertainty | `http://qudt.org/vocab/quantitykind/MASS-PROPERTY-UNCERTAINTY` | 3.2.0 | — |
+| Maximum Beta-Particle Energy | `http://qudt.org/vocab/quantitykind/MaximumBeta-ParticleEnergy` | 3.2.0 | `MaximumBetaParticleEnergy` |
+| Median Information Flow (from a Source of Information), Expressed as a Binary Logarithm | `http://qudt.org/vocab/quantitykind/BinaryLogarithmicMedianInformationFlow` | 3.5.0 | `InformationFlowRate` |
+| Median Information Flow (from a Source of Information), Expressed as a Common Logarithm  | `http://qudt.org/vocab/quantitykind/CommonLogarithmicMedianInformationFlow` | 3.5.0 | `InformationFlowRate` |
+| Median Information Flow (from a Source of Information), Expressed as a Natural Logarithm  | `http://qudt.org/vocab/quantitykind/NaturalLogarithmicMedianInformationFlow` | 3.5.0 | `InformationFlowRate` |
+| Microbial Formation | `http://qudt.org/vocab/quantitykind/MicrobialFormation` | 3.5.0 | — |
+| Molar Equivalent | `http://qudt.org/vocab/quantitykind/Equivalent_Molar` | 3.1.3 | `MolarEquivalent` |
+| Molar Flux Density Variance, NEON | `http://qudt.org/vocab/quantitykind/MolarFluxDensityVariance_NEON` | 3.1.3 | `MolarFluxDensityVariance` |
+| Moment of Inertia in the Y axis | `http://qudt.org/vocab/quantitykind/MOMENT-OF-INERTIA_Y` | 3.1.3 | `MomentOfInertia_Y` |
+| Moment of Inertia in the Z axis | `http://qudt.org/vocab/quantitykind/MOMENT-OF-INERTIA_Z` | 3.1.3 | `MomentOfInertia_Z` |
+| Nominal Ascent Propellant Mass | `http://qudt.org/vocab/quantitykind/NOMINAL-ASCENT-PROPELLANT-MASS` | 3.2.0 | — |
+| Non-Leakage Probability | `http://qudt.org/vocab/quantitykind/Non-LeakageProbability` | 3.2.0 | `NonLeakageProbability` |
+| Predicted Mass | `http://qudt.org/vocab/quantitykind/PREDICTED-MASS` | 3.2.0 | — |
+| Product of Inertia | `http://qudt.org/vocab/quantitykind/PRODUCT-OF-INERTIA` | 3.2.0 | `ProductOfInertia` |
+| Product of Inertia in the X axis | `http://qudt.org/vocab/quantitykind/PRODUCT-OF-INERTIA_X` | 3.1.3 | `ProductOfInertia_X` |
+| Product of Inertia in the Y axis | `http://qudt.org/vocab/quantitykind/PRODUCT-OF-INERTIA_Y` | 3.1.3 | `ProductOfInertia_Y` |
+| Product of Inertia in the Z axis | `http://qudt.org/vocab/quantitykind/PRODUCT-OF-INERTIA_Z` | 3.1.3 | `ProductOfInertia_Z` |
+| Quartic Electric Dipole Moment per Cubic Energy | `http://qudt.org/vocab/quantitykind/ElectricDipoleMoment_QuarticPerEnergy_Cubic` | 3.1.3 | `QuarticElectricDipoleMomentPerCubicEnergy` |
+| RF-Power Level | `http://qudt.org/vocab/quantitykind/RF-Power` | 3.2.0 | `RFPower` |
+| Relaxation Time | `http://qudt.org/vocab/quantitykind/RelaxationTIme` | 3.2.0 | `RelaxationTime` |
+| Reserve Mass | `http://qudt.org/vocab/quantitykind/RESERVE-MASS` | 3.2.0 | — |
+| Serum or Plasma Level | `http://qudt.org/vocab/quantitykind/SerumOrPlasmaLevel` | 3.1.4 | — |
+| Short-Range Order Parameter | `http://qudt.org/vocab/quantitykind/Short-RangeOrderParameter` | 3.2.0 | `ShortRangeOrderParameter` |
+| Slowing-Down Area | `http://qudt.org/vocab/quantitykind/Slowing-DownArea` | 3.2.0 | `SlowingDownArea` |
+| Slowing-Down Density | `http://qudt.org/vocab/quantitykind/Slowing-DownDensity` | 3.2.0 | `SlowingDownDensity` |
+| Slowing-Down Length | `http://qudt.org/vocab/quantitykind/Slowing-DownLength` | 3.2.0 | `SlowingDownLength` |
+| Square Energy | `http://qudt.org/vocab/quantitykind/Energy_Squared` | 3.1.3 | `SquareEnergy` |
+| Surface Related Volume Flow Rate | `http://qudt.org/vocab/quantitykind/VolumeFlowRate_SurfaceRelated` | 3.1.3 | `SurfaceRelatedVolumeFlowRate` |
+| Target Bogie Mass | `http://qudt.org/vocab/quantitykind/TARGET-BOGIE-MASS` | 3.2.0 | — |
+| Temperature Variance, NEON | `http://qudt.org/vocab/quantitykind/TemperatureVariance_NEON` | 3.1.3 | `TemperatureVariance` |
+| Temperature per Time Squared | `http://qudt.org/vocab/quantitykind/TemperaturePerTime_Squared` | 3.1.3 | `TemperaturePerSquareTime` |
+| Time Squared | `http://qudt.org/vocab/quantitykind/Time_Squared` | 3.1.3 | `SquareTime` |
+| Time-related Logarithmic Ratio | `http://qudt.org/vocab/quantitykind/TimeRelatedLogarithmicRatio` | 3.5.0 | `TimeRelatedLogERatio` |
+| Vapour Permeability | `http://qudt.org/vocab/quantitykind/VaporPermeability` | 3.1.3 | `VapourPermeability` |
+| Vapour Permeance | `http://qudt.org/vocab/quantitykind/VaporPermeance` | 3.1.3 | `VapourPermeance` |
+| Vapour Pressure | `http://qudt.org/vocab/quantitykind/VaporPressure` | 3.2.0 | `VapourPressure` |
+| Water Solubility | `http://qudt.org/vocab/quantitykind/Solubility_Water` | 3.1.3 | `WaterSolubility` |
+| Water vapour diffusion coefficient | `http://qudt.org/vocab/quantitykind/WaterVaporDiffusionCoefficient` | 3.2.0 | `WaterVapourDiffusionCoefficient` |
+| areic charge density or electric flux density or electric polarization | `http://qudt.org/vocab/quantitykind/AreicChargeDensityOrElectricFluxDensityOrElectricPolarization` | 3.1.4 | — |
+| half-life | `http://qudt.org/vocab/quantitykind/Half-Life` | 3.2.0 | `HalfLife` |
+| internal energy | `http://qudt.org/vocab/quantitykind/EnergyInternal` | 3.2.0 | `InternalEnergy` |
+| kinematic viscosity or diffusion constant or thermal diffusivity | `http://qudt.org/vocab/quantitykind/KinematicViscosityOrDiffusionConstantOrThermalDiffusivity` | 3.1.4 | — |
+| kinetic energy | `http://qudt.org/vocab/quantitykind/EnergyKinetic` | 3.2.0 | `KineticEnergy` |
+| kinetic or thermal energy | `http://qudt.org/vocab/quantitykind/KineticOrThermalEnergy` | 3.1.4 | — |
+| magnetic field strength | `http://qudt.org/vocab/quantitykind/MagneticFieldStrength_H` | 3.1.3 | `MagneticFieldStrength` |
+| magnetic flux density or magnetic polarization | `http://qudt.org/vocab/quantitykind/MagneticFluxDensityOrMagneticPolarization` | 3.1.4 | `MagneticFluxDensity` |
+| median information flow (from a source of information), expressed as a binary logarithm | `http://qudt.org/vocab/quantitykind/LogarithmicMedianInformationFlow_SourceToBase2` | 3.1.3 | `InformationFlowRate` |
+| median information flow (from a source of information), expressed as a common logarithm  | `http://qudt.org/vocab/quantitykind/LogarithmicMedianInformationFlow_SourceToBase10` | 3.1.3 | `InformationFlowRate` |
+| median information flow (from a source of information), expressed as a natural logarithm  | `http://qudt.org/vocab/quantitykind/LogarithmicMedianInformationFlow_SourceToBaseE` | 3.1.3 | `InformationFlowRate` |
+| rise of off-state voltage | `http://qudt.org/vocab/quantitykind/RiseOfOffStateVoltage` | 3.2.0 | `RateOfRiseOfOffStateVoltage` |
+| rotary-translatory motion conversion | `http://qudt.org/vocab/quantitykind/Rotary-TranslatoryMotionConversion` | 3.2.0 | `RotaryTranslatoryMotionConversion` |
+| time constant (inductance based) | `http://qudt.org/vocab/quantitykind/TimeConstant_Inductance` | 3.1.3 | `InductanceBasedTimeConstant` |
+| volume or section modulus | `http://qudt.org/vocab/quantitykind/VolumeOrSectionModulus` | 3.1.4 | — |
 
 ## Deprecated Units
 
@@ -96,4 +195,35 @@ _None in this release._
 | Volt Ampere Reactive Hour | `http://qudt.org/vocab/unit/V-A_Reactive-HR` | 3.1.0 | `VAR-HR` |
 | Volt Ampere Reactive per Kelvin | `http://qudt.org/vocab/unit/V-A_Reactive-PER-K` | 3.1.0 | `VAR-PER-K` |
 | Volt Ampere per Kelvin | `http://qudt.org/vocab/unit/V-A-PER-K` | 3.1.0 | `VA-PER-K` |
+
+## Quantity Kinds Excluded (No Applicable Units)
+
+Non-deprecated quantity kinds with no units attached directly, and none inherited from any `qudt:specializationOf` ancestor, so no enum was generated:
+
+| Label | IRI |
+|---|---|
+| Inverse Time | `http://qudt.org/vocab/quantitykind/InverseTime` |
+| Lineic Quantity | `http://qudt.org/vocab/quantitykind/LineicQuantity` |
+| Power Constant | `http://qudt.org/vocab/quantitykind/PowerConstant` |
+| Pressure-based Amount-of-substance Concentration | `http://qudt.org/vocab/quantitykind/PressureBasedAmountOfSubstanceConcentration` |
+| Pressure-based Density | `http://qudt.org/vocab/quantitykind/PressureBasedDensity` |
+| Pressure-based Mass Flow | `http://qudt.org/vocab/quantitykind/PressureBasedMassFlow` |
+| Pressure-based Molality | `http://qudt.org/vocab/quantitykind/PressureBasedMolality` |
+| Pressure-based Quantity | `http://qudt.org/vocab/quantitykind/PressureBasedQuantity` |
+| Pressure-based Velocity | `http://qudt.org/vocab/quantitykind/PressureBasedVelocity` |
+| Pressure-based Volume Flow | `http://qudt.org/vocab/quantitykind/PressureBasedVolumeFlow` |
+| Radiant Energy Exposure | `http://qudt.org/vocab/quantitykind/RadiantEnergyExposure` |
+| Square Energy | `http://qudt.org/vocab/quantitykind/SquareEnergy` |
+| Temperature-based Amount-of-substance Concentration | `http://qudt.org/vocab/quantitykind/TemperatureBasedAmountOfSubstanceConcentration` |
+| Temperature-based Density | `http://qudt.org/vocab/quantitykind/TemperatureBasedDensity` |
+| Temperature-based Mass Flow Rate | `http://qudt.org/vocab/quantitykind/TemperatureBasedMassFlowRate` |
+| Temperature-based Quantity | `http://qudt.org/vocab/quantitykind/TemperatureBasedQuantity` |
+| Temperature-based Velocity | `http://qudt.org/vocab/quantitykind/TemperatureBasedVelocity` |
+| Temperature-based Volume Flow Rate | `http://qudt.org/vocab/quantitykind/TemperatureBasedVolumeFlowRate` |
+| Temperature-related Molar Mass | `http://qudt.org/vocab/quantitykind/TemperatureRelatedMolarMass` |
+| Touch Thresholds | `http://qudt.org/vocab/quantitykind/TouchThresholds` |
+| Traffic Intensity | `http://qudt.org/vocab/quantitykind/TrafficIntensity` |
+| Vision Thresholds | `http://qudt.org/vocab/quantitykind/VisionThresholds` |
+| Volumic Amount of Substance | `http://qudt.org/vocab/quantitykind/VolumicAmountOfSubstance` |
+| Volumic Data Quantity | `http://qudt.org/vocab/quantitykind/VolumicDataQuantity` |
 

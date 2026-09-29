@@ -918,7 +918,7 @@ wheels = [
 
 [[package]]
 name = "s2dm"
-version = "0.28.0"
+version = "0.29.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "ariadne" },
@@ -942,9 +942,9 @@ dependencies = [
     { name = "rich-click" },
     { name = "uvicorn", extra = ["standard"] },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/dc/28/6436487f1ae5e5ead4068f9fa6ce45b41c4b611332e43dbf631a371bdd68/s2dm-0.28.0.tar.gz", hash = "sha256:78e0372c46d48fb28a3b0c9bb23cfb8079d1a4fc072d8df512a7ea8a725a5924", size = 8871667, upload-time = "2026-08-31T10:24:00.264Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/82/63/6785e98edec08ffe31b5c0af76dacfec23fa8515bc8cf89c1df38f78ea84/s2dm-0.29.0.tar.gz", hash = "sha256:b0b150a67ab55618d3857857412b599d09f842e82e5a62896bee4755dd314bfc", size = 8882730, upload-time = "2026-09-29T15:32:40.707Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/c5/b3/16108bb93be0e705d5c109bdb88d3c630128ed66f2c82d22495482d14190/s2dm-0.28.0-py3-none-any.whl", hash = "sha256:c861f5d0059a797da0f6173bc28066d772748eae32be1dd73f629080ad6fcecf", size = 586393, upload-time = "2026-08-31T10:23:58.896Z" },
+    { url = "https://files.pythonhosted.org/packages/47/14/7b4b75b605607ad4ccdcd72913ab3e0a5ded6d739bbf1d9b2b1cfc14704d/s2dm-0.29.0-py3-none-any.whl", hash = "sha256:31fd9bd11eb592b3679fd2eb42f642e52186919f15fdc3e5b1fd7b43bf1e88aa", size = 594859, upload-time = "2026-09-29T15:32:39.329Z" },
 ]
 
 [[package]]
