@@ -1,0 +1,45 @@
+name: Release Units
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "spec/units/**"
+
+jobs:
+  release:
+    if: github.repository_owner == 'covesa'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      # One release per QUDT version. The tag comes from the qudt-version
+      # marker in spec/units/README.md. Unit changes under the same QUDT
+      # version, such as a regeneration with a newer S2DM, create no release.
+      - name: Determine version
+        id: version
+        run: |
+          QUDT_VERSION=$(sed -n 's/^<!-- qudt-version: \(.*\) -->$/\1/p' spec/units/README.md)
+          LAST_TAG=$(git tag -l 'qudt-units-v*' --sort=-version:refname | head -n 1)
+          echo "README version: qudt-units-${QUDT_VERSION}"
+          echo "Last tag: ${LAST_TAG}"
+          if [ "qudt-units-${QUDT_VERSION}" = "${LAST_TAG}" ]; then
+            echo "QUDT version unchanged. No release."
+          fi
+          echo "version=qudt-units-${QUDT_VERSION}" >> $GITHUB_OUTPUT
+          echo "last_tag=${LAST_TAG}" >> $GITHUB_OUTPUT
+
+      - name: Create release
+        if: steps.version.outputs.version != steps.version.outputs.last_tag
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "${{ steps.version.outputs.version }}" \
+            --target "${{ github.sha }}" \
+            --title "${{ steps.version.outputs.version }}" \
+            --notes ""
