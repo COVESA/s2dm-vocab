@@ -1,0 +1,90 @@
+name: Release Directives
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "spec/directives/**"
+
+jobs:
+  release:
+    if: github.repository_owner == 'covesa'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Determine version bump
+        id: version
+        run: |
+          # Get directives commits since last directives tag
+          LAST_TAG=$(git describe --tags --abbrev=0 --match 'directives-v[0-9]*.[0-9]*.[0-9]*')
+          COMMITS=$(git log --pretty=format:"%s" ${LAST_TAG}..HEAD -- spec/directives)
+          echo "last_tag=${LAST_TAG}" >> $GITHUB_OUTPUT
+
+          echo "Commits since last tag:"
+          echo "$COMMITS"
+
+          # Determine version bump based on conventional commits
+          MAJOR=false
+          MINOR=false
+          PATCH=false
+
+          while IFS= read -r commit; do
+            echo "Analyzing: $commit"
+            if echo "$commit" | grep -qE "^[a-zA-Z]+(\(.+\))?!:"; then
+              echo "Breaking change detected"
+              MAJOR=true
+            elif echo "$commit" | grep -qE "^feat(\(.+\))?:"; then
+              echo "Feature detected"
+              MINOR=true
+            elif echo "$commit" | grep -qE "^(fix|perf)(\(.+\))?:"; then
+              echo "Fix/perf detected"
+              PATCH=true
+            fi
+          done <<< "$COMMITS"
+
+          if git log --format=%B "${LAST_TAG}..HEAD" -- spec/directives | grep -qE "^BREAKING CHANGE:"; then
+            echo "Breaking change in body detected"
+            MAJOR=true
+          fi
+
+          # Determine bump type (major > minor > patch)
+          if [ "$MAJOR" = true ]; then
+            echo "bump=major" >> $GITHUB_OUTPUT
+            echo "Version bump: MAJOR"
+          elif [ "$MINOR" = true ]; then
+            echo "bump=minor" >> $GITHUB_OUTPUT
+            echo "Version bump: MINOR"
+          elif [ "$PATCH" = true ]; then
+            echo "bump=patch" >> $GITHUB_OUTPUT
+            echo "Version bump: PATCH"
+          else
+            echo "bump=none" >> $GITHUB_OUTPUT
+            echo "No version bump needed"
+          fi
+
+      - name: Determine new version
+        id: new_version
+        if: steps.version.outputs.bump != 'none'
+        run: |
+          LAST_TAG="${{ steps.version.outputs.last_tag }}"
+          echo "[tool.bumpversion]" > "$RUNNER_TEMP/bumpversion.toml"
+          echo "current_version = \"${LAST_TAG#directives-v}\"" >> "$RUNNER_TEMP/bumpversion.toml"
+          NEW_VERSION="directives-v$(pipx run --spec bump-my-version==1.8.1 bump-my-version show --config-file "$RUNNER_TEMP/bumpversion.toml" --increment "${{ steps.version.outputs.bump }}" new_version)"
+          echo "New version: ${NEW_VERSION}"
+          echo "version=${NEW_VERSION}" >> "$GITHUB_OUTPUT"
+
+      - name: Create release
+        if: steps.version.outputs.bump != 'none'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "${{ steps.new_version.outputs.version }}" \
+            --target "${{ github.sha }}" \
+            --title "${{ steps.new_version.outputs.version }}" \
+            --notes ""
